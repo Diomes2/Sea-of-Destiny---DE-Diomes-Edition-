@@ -1,0 +1,198 @@
+PMR - Sea of Destiny 1.1b (with SoD Complete)
+by: Diomes2
+
+Credit -  Pinkertonius : PMR - Sea of Destiny 1.1 (2011) 	https://mw.modhistory.com/download-48-14242
+
+	  clone : Sea of Destiny: Complete (2004)
+	https://mw.modhistory.com/download-48-3856
+
+Purpose of this Mod
+Requirements
+Installation
+List of Fixes/Changes
+Unfixed/Not Bugs Issues
+Permissions
+Spoilers - Quest Guide/Walkthrough
+_________________________________________________________
+
+
+Purpose of this Mod (PMR - Sea of Destiny 1.1b - with SoD Complete)
+
+
+	MMH is currently down for an unspecified time so I have bundled everything together here in a single file. Clone gave Pinkertonius permission, and Pinkertonius has given permission to me to continue working, modifying, and uploading this mod.
+ 	I chose to modify Pinkertonius mod instead of clones because Pinkertonius mod is TR compatible, and clone's mod is so close to the mainland that it conflicts with the official DLC, Siege of Fort Frostmoth, as well as TR.
+	My goal was to fix PMR - Sea of Destiny 1.1 so that it would function as well as the original Sea of Destiny mod that clone made, and make it have the least amount of potential compatibility issues without any noticeable, visible, or game-play changes to the original mod.
+	All the unused cells, door markers, etc, etc, are still in there. I did this to perserve clone's original intentions. When you pull apart clone's mod in the CS, you can almost see what he was thinking at the time. There are tons of unused cells, some finished and some not, some with one way doors that lead to in game places. Tons of unused NPC's, teleports, carvaneers, and much, much more. I personally don't want to be the one to get rid of all that history. So unless I thought that it could really cause an issue with compatibility for other mods or with the game itself, I didn't change them. 
+	Seven years after clone's final release in 2004, Pinkertonius released his mod that moved the landmass and fixed many issues. Pinkertonius was of the same mindset in regard to changes as I. Here is a link to Pinkertonius forum posts. You can even see clone show up on the 2nd page.
+		http://www.gamesas.com/pmr-sea-destiny-t122209.html
+
+	Pinkertonius was disscussing, for the most part, the very same fixes that I have implemented here, but for whatever reason never, to my knowledge, officially released an update. After 11 years, I figured it was my turn to finish what he began. Pinkertonius did a lot of work on this, and I have left his name on as much as I can.
+
+	My intentions were to restore this mods functionality back to the original in the purists sense, and fix a couple of issues along the way. Hopefully that is what I accomplished here.
+__________________________________________________________________
+
+Requirements
+	1. Morrowind, Tribunal, Bloodmoon
+____________________________________________________________________
+
+Installation
+
+	1. Simply extract all files to your Morrowind/Data Files/ directory.
+				or
+		Install with Wrye Mash or other perferred mod manager (recommended)
+
+	2. To activate the mod, open the Morrowind Launcher, click Data Files, and select PMR - Sea of Destiny 1.1 (fixed).esp
+						or
+		Activate using Wrye Mash (recommended)
+
+	Just like PMR's mod, this replaces the original Sea of Destiny.esm, the patch .esp, and the Frost Fall Expansion.esp. You only need my .esp file. You do NOT need Pinkertonius : PMR - Sea of Destiny 1.1 or any .esp's that came with clones original mod.
+
+	If you are already using Pinkertonius : PMR - Sea of Destiny 1.1, replace that .esp file with the one I have provided and repair your save with Wrye Mash or something similar. Do that at your own risk! A fresh start is always the best practice, but meh... it should be alright.. right? 
+	If you don't repair your saves, the most likely thing that will happen is the doors to quest givers/transport services will disappear, and if you console yourself into the transport services building, you'll be ambushed by a multitude of duplicates all giving you their greetings.   You have been warned!
+________________________________________________________________________
+
+List of Fixes/Changes
+
+	1. Deleted unnecessary most likely unintentional cell changes to base game. Sotha Sill, Dome of Serlyn / Elith-Pal-Mine /and Old Mournhold, Tears of Amun-Shae
+	2. Deleted cell changes in Balmora, Milie Hastien fine clothier. There was one 'Drakescale Robe' added to her shelf and inventory. Also one floating 'Veloth Robe' outside of the interior cell. For compatibility purposes I removed these changes as it adds nothing to the mod except potential problems especially considering how many popular Balmora mods there are.
+	3. There was a mesh, texture, and icon replacer for all fiend katana, steel dai-katana, steel wakizashi, and steel katana that overwrote all the weapons in the base game. I reverted all the base game weapons back to the original and then attached the re-textures, meshes, and icons to only affect SoD weapons. Changes made were 3 fiend katanas, 19 steel dai-katanas, 44 steel katanas, and 21 steel wakizashis, 87 changes in total. In the CS they are now named, ' _fiend_katana_Dio' '_steel_dai-katana_Dio' '_steel_wakizashi_Dio' '_steel_katana_Dio'. When on the SoD landmass all the meshes, textures and icons are the same as clone's original mod, anywhere else they are vanilla.
+	4. The weapons Black Skies and Regar's Sword had missing icons. I tried to find the originals, but I'm almost certain that they came from the long lost LOTR mod. I took the weapons from the game and made icons for them using GIMP.
+	5. Droof's robe had an icon that didn't match. I don't remember the original author of these robes (maybe Jdooby?), but I do remember they were all incomplete, like 10 of them if I remember right. They looked fine when you wore them, but mismatched icons, and no texture applied to the mesh when sitting the robe on the ground. I made a new Icon for the robe using GIMP, but there are still no textures attached to that mesh. I don't know blender, and I'm an old dog that refuses to learn new tricks. Also the robe is white, and a mesh with no texture is white. I'm sure it will bother someone, but that someone is not me.
+	6. Removed changes to base game daedric longbow, chitin shortbow, shortbow, and longbow. For some reason there was added +1 to thrust damage.
+	7. Fixed Kar Region return transport. It placed you 1/2 way stuck in the floor.
+	8. Fixed Gerson transport. It sent you to the original location, 30 feet under water in the Bitter Coast.
+	9. Fixed Gearson return transport. It originally sent you far outside the intended interior cell.
+	10. Fixed LuSar transport. It also sent you underwater in the Bitter Coast.
+	11. Fixed Eldvkin Keep transport. There was no travel option. I placed the travel marker back to the original SoD mod location.
+	12. Fixed DeepMarsh transport. Had to move marker NW to original SoD location.
+	13. Fixed DeepMarsh return transport. It originally sent you far outside the intended interior cell.
+	14. Fixed RavenBlood transport. Had to move marker SE to original SoD location.
+	15. Fixed Sothador transport. It also sent you underwater in the Bitter Coast.
+	16. Fixed Myth transport. Had to move marker ENE to original SoD location.
+	17. Adjusted almost all travel markers in Regar, Teleport Service cell to more precise locations.
+	18. Adjusted all usable Travel markers to face in proper direction in relation to cities, and destination of quests.
+	19. Deleted 2 Bofu-go-less duplicates in Sothador. Left the one standing on the platform.
+	20. Deleted Nizen duplicate in Regar.
+	21. Fixed creature position on 2nd level of Sea Dungeon : Ryemkim.
+	22. Removed constant effect Cure Corpus Disease from the amulet, Destiny. This was in the original SoD mod by clone, but this can break the main quest of the base game, and there's no reason outside of the base game to even have that effect here.
+	23. Deleted duplicate rug in DaggerSoul, Council cell. This felt like a questionable change to me as it was in the base game, and I think the overlapping effect is what clone was going for, but the way the game engine handles it, the dominant texture would flicker rapidly, oscillating between the two rugs as you move through the room, and this room is one of the most traveled rooms in this mod, it gets very annoying after a while.
+	24. Moved chairs to allow easier access to quest giver in DaggerSoul, Council cell. Once again this felt like a questionable change, but I did it for the same reason mentioned above.
+	25. Deleted duplicate throne in DaggerSoul, Council cell, and moved it back closer to the wall. Xevous Dagger would sometimes start hovering in the air because of overlapping collision boxes. This move fixed that issue.
+	26. Fixed door in Gerson, Northwing. (Unused cell unless using console 'coc gerson'. I figured people might want to get out, if they ever got in.)
+	27. Fixed placement of door in Regar's Throne cell. It had shimmering issues with overlapping textures. Placed it deeper in the door opening to fix it.
+	28. Regar, Rasole Hamilaya's house was missing its interior. At first, I deleted the door marker and locked the door, then I placed that door marker into a completed Rasole Hamilaya interior that I found in the CS and unlocked the door, and finally I deleted that door marker again and locked the door with __noKey. The reason is a little bit much to list here, but this issue was like an onion and the more I looked into it the more layers it had. I decided it was best to do as close to nothing as I could.
+	29. Moved wall screen and light in Regar, Nizim house. The space was so tight that there was no pathing between the door and Nizim himself. Honestly it's still a little tight in there, but this was the best I can do without deleting something or noticeably reorganizing his room.
+	30. In Sothador, I moved 2 creatures farther away from transport service. When you got transported there, sometimes you would go immediately into combat. Though unlikely, this could potentially cause an essential NPC to die, breaking the main quest.
+	31. Switched the exterior doors of Moon and Star Temple in DaggerSoul. This is just a copy of Ghostgate, but the problem was that the interiors were reversed from what the exterior was. Swapping the exterior doors was the simplest fix.
+	32. Deleted the key to the vault in Ghostgate from the table in Moon Temple, DaggerSoul. I'm pretty sure this was just an unintentional oversight on clone's behalf when coping the cell from the base game. If you want it back the console code is 'key_dawnvault'.
+	33. Fixed region name for transport cell in Gearson.
+	34. Fixed region name for transport cell in DeepMarsh.
+	35. Fixed region name for transport cell in Yui.
+	36. Fixed region name for transport cell in Elador.
+	37. Fixed region name for transport cell in Raven Blood.
+	38. Smoothed the landscape in Raven Blood so that player can walk up to the transport service.
+	39. Moved very slightly the tree outside of Council Manor, Elador. It was clipping through the building and door.
+	40. Locked the unused/unassigned doors on Council Manor, Elador to keep them from opening to nothing.
+	41. Cleaned out 19 dirty dialogue references. It's possible that they could overwrite another mod depending on load order.
+	42. Moved Regar transport location to better match original mod by clone
+	43.  Fixed region name for transport cell in Regar.
+	44. Clean with TES3cmd, TESame, Enchanted Editor, TESTool, and used Wrye Mash to redated my mod to match that of  PMR - Sea of Destiny 1.1 by Pinkertonius. This will hopefully avoid most load order issues.
+	45. TesTool.log file included in Docs folder - In case there is an issue with what it removed, you now at least have a record of what did what.
+	45. I'm sure I forgot to write some of the changes/fixes down. I know that I deleted several duplicate statics that I found while making changes that I didn't record here, but this is very close to all the more noticeable ones.
+
+__________________________________________________________________
+
+	There are a few things I didn't do that can be considered legitimate issues. First is dialogue. There are many typos, quest with no journal updates, journal updates without necessary information, and more. I chose not to fix this because I tried and I didn't know where to stop, and I ended up completely changing the dialogue altogether with new journal entries and new quests. I like SoD, but lets face it... we're not here for the eloquent oratory.
+	Second is some things that at first might seem like a bug, but it is functioning just like it was originally intended to do.... I guess.. maybe. Either way it doesn't break the game as far as I know.
+
+Unfixed/Not Bugs Issues
+
+	1. Council Manor, Elador, a wall piece says door when you hover over it, clicking it causes it to disappear. This is a custom pocket door made by modder Lord Yig, and it is functioning as good/awkward as it always did. Not a bug.
+	2.  Star Temple, Daggersoul - NPC Herme LaSoul sells HerHand / Indoril Helmet and Cuirass. Equipping these will get you attacked by every ordinator in the game, including the one right outside the room where you bought them. I thought about fixing this, but I assume people already know that this might happen, and if they don't, they'll soon find out. Being the old curmudgeon that I am, I had a good laugh at the thought of it happening to someone. 	Not a Bug. It's a feature!
+	3. Droof, Wizard's Tower, all the stuff in it belongs to Divayth Fyr. I thought about reassigning all of it to Droof, but this sort of ownership issue is found in nearly every cell of this mod, all 460+ of them. This was the most blatant one that stood out to me, but it's also one of the most harmless ones. If I fixed this one, then I should really go back through everything and at least fix all the ones that link ownership to vendors. I'm not feeling that ambitious. It is a Bug!.. but I'm not fixing it.
+	4. NPC's have no unique dialogue. This was how the original was, no one would/could help you find anyone/anything else. Not going to fix for reasons stated earlier.
+	5. Mistress Therana, Tel Branora, she wears a necromancer robe made by modder MP*Canus with constant effect Reflect 50, and Spell Absorption 50. I can't think of a conflict here, but I am willing to remove this if it does conflict with another mod. There's really no need for it here, it has nothing to do with SoD other than its just a thing that exists in the original mod by clone. Is it a Bug? idk... You tell me.
+_____________________________________________________________________
+
+Permissions
+
+	I have been able to get up with Pinkertonius and get his permission to post this mod here, and modify it, but I still have no idea where to even begin to find clone. Last time I seen him was in 2011.
+
+	As far as my permission to you?
+
+	You can do whatever you like. Add on to it. Repost anywhere. Slander my name. Egg your neighbors house. It's all good with me. As long as someone plays it and is happy, I could care less if they know I had a hand in it. And depending on how many other issues people discover, it might work out best for me that way.
+
+______________________________________________________
+
+***Spoilers*** - Quest Guide/Walkthrough  below
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quest Guide/Walkthrough
+
+	1. To start the quest talk to Loth Mayor, he is standing just outside the north entrance of Balmora, and travel to DaggerSoul. (His location migth conflict with other balmora mods, idk I don't use any, but if you know of a conflict, let me know what mod, and I'll move him accordingly.)
+	2. Once there, talk to King Xevous Dagger located on the 2nd floor of Council building, DaggerSoul. Your travel spawn should place you facing that building. 'help we need' starts quest to talk to Stone Bone in Sothador.
+	3. Go the DaggerSoul, Transport Service building located South of Council building, and travel to Sothador. This building will hold all your future transportation needs. Enter Sothador and talk to Stone Bone standing outside of Sothador Mine. 
+	4. Get quest to talk to Bofu-go-less. Bofu-go-less is standing on the platform behind you, the one between you and the transportation location. 'Ask for a report'  Bofu-go-less attacks you, kill him. Report back to the Xevous in DaggerSoul, Council.
+	5. Xevous,  'help we need' topic. Go to Elador and speak with the King there about Kar. Go to same Transportation Service and travel to Elador.
+	6. Speak to Huor Taralom in closest building to transport location. 'rumors of Kar's return' report back to King Xevous in DaggerSoul.
+	7. Xevous, 'help we need'  Travel to Regar, go to the Temple, speak with Orodreth Miriel. The temple is roughly north northwest of your spawn location, you should be able to see the temples spire through the buildings. Regar is a large city, so remember how to get back to your transportation spawn location.
+	8. Orodreth, 'secret cult'  Quest to go to Nizen's house and kill him. His house is located not far south southwest of Temple.
+	9. Enter Nizen's house, he attacks you upon entry, kill him and report back to Orodreth in Temple. Oroderth gives you reward and sends you back to King Xevous in DaggerSoul.
+	10. Xevous, 'help we need'  Quest to travel to Raven Blood talk to Silver Soul. Silver Soul is standing to the east on the raised platform spanning across the river.
+	11.Silver Soul, 'task for you' Quest to kill three dark elf women in ruins underwater. The entrance to the ruins is northwest of Silver Soul. It is named Old Cave just off the coast underwater.
+	12. The first room has one lady, kill her. The room behind her has the other two, kill them. Report back to Silver Soul, 'task for you', he gives you his armor and you return to King Xevous in DaggerSoul.
+	13. Xevous, 'help we need'  Quest to travel back to Regar and kill James Tong. His house is north of transportation spawn location. Taunt him to fight, or just kill him, and report back to King Xevous in DaggerSoul.
+	14. Xevous, 'help we need'  Quest to travel to Sothador, Mine and talk to Theadore Warswick. Go to the Sothador, Mine located near Stone Bone from quest earlier. Find Theadore Warswick, 'settle down' pay him 400 gold, and return to King Xevous in DaggerSoul.
+	15. Xevous, 'help we need'  Quest to travel to Myth, Ranger Fort. The fort is located southwest of spawn location. Talk to Captain Grayfox, located in Willowstone, Captain Grayfox building inside of the fort.
+	16. Captain Grayfox, 'task for you' Quest to talk with Myth's King. Exit fort, head east and then north up the hill, enter imperial fort named, Myth, Council of Myth.
+Find Dori Manskull.
+	17. Dori Manskull, 'Kar's Return' Quest to kill Mere Wosa. Mere Wosa is located along the same path you traveled from the Rangers Fort. He is standing outside of his house, kill him and report back to King Xevous in DaggerSoul.
+	18. Xevous, 'help we need'  Quest to travel back to Regar, Temple and speak with the god Regar himself.
+	19. Regar, 'complete my Quest' Quest to travel to Kar Mountain Region and kill Kar. Travel to Kar Region, head east up mountain path, follow it around to the left until you come to the dwemer ruin, Bundin Mithkanoion. Proceed through ruin and kill Kar.
+	20. Return to god Regar in his temple 'complete my Quest'  receive reward. 
+
+End of Sea of Destiny's Main Quest.
+
+____________________________________________________________________
+Notable Side Quest-
+
+	In the tavern of DaggerSoul there is a wood-elf companion, Woody Hood, that you can get. He was made by Enma/Grumpy, so you know its gonna be top tier. Enma is in my opinion the greatest at making interesting NPC's, and she made what I consider all the top 3 best follower companions ever made for TES3. Grumpy wrote the follower script which is leaps and bounds better than the vanilla Morrowind experience.
+
+				Welp, that's all folks!
+
+	You can leave comments and requests if you want, but I do have a tendency to disappear for extended amounts of time. Once I get all my mods downloaded and functioning the way I want them, I'm usually good for the next 5 or so years. So, if I stop replying to messages, it's probably cause I'm lost somewhere in the game.
+
+ Enjoy!... or not... it's completely up to you.
+
+-Diomes2

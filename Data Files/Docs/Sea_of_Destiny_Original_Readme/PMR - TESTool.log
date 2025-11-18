@@ -1,0 +1,501 @@
+File: PMR - Sea of Destiny 1.1 (fixed).esp
+==============================
+  deleted NPC_ hannabi zabynatus
+  deleted NPC_ ethasi rilvayn
+  deleted NPC_ jobasha
+  deleted NPC_ alven salas
+  deleted NPC_ terenu uveran
+  deleted NPC_ big head
+  deleted NPC_ Llandras Belaal
+  deleted NPC_ hides_his_foot
+  CELL   1 -11, Ascadian Isles Region
+  CELL  -3  -2, Balmora
+  CELL -11  11, Gnisis
+  CELL -30 -23, Myth Region Area
+    ; cell is empty but there is a related LAND record
+  CELL -30 -24, Myth Region Area
+    ; cell is empty but there is a related LAND record
+  CELL -31 -23, Droof
+  CELL -31 -24, Myth Region Area
+  CELL -31 -25, Myth Region Area
+  CELL -31 -26, Myth Region Area
+  CELL -31 -27, Myth Region Area
+  CELL -32 -21, DaggerSoul
+  CELL -32 -22, DaggerSoul
+  CELL -32 -23, DaggerSoul
+  CELL -32 -24, Myth Region Area
+  CELL -32 -25, Myth Region Area
+  CELL -33 -20, Myth Region Area
+    ; cell is empty but there is a related LAND record
+  CELL -33 -21, DaggerSoul
+  CELL -33 -22, DaggerSoul
+  CELL -33 -23, DaggerSoul
+  CELL -33 -24, DeepMarsh
+  CELL -34 -20, Myth Region Area
+    ; cell is empty but there is a related LAND record
+  CELL -34 -21, DaggerSoul
+  CELL -34 -22, DaggerSoul
+  CELL -34 -23, DaggerSoul
+  CELL -34 -24, Myth Region Area
+  CELL -35 -20, Myth Region Area
+  CELL -35 -21, Myth Region Area
+  CELL -35 -22, Elador
+  CELL -35 -23, Myth Region Area
+  CELL -35 -24, Sothador
+  CELL -36 -20, LuSar
+  CELL -36 -21, LuSar
+  CELL -36 -22, Elador
+  CELL -36 -23, Elador
+  CELL -36 -24, Myth Region Area
+  CELL -37 -20, Gerson Region Area
+    ; cell is empty but there is a related LAND record
+  CELL -37 -21, Gerson Region Area
+  CELL -37 -22, Gerson Region Area
+    ; cell is empty but there is a related LAND record
+  CELL -37 -23, Gerson Region Area
+  CELL -37 -24, Raven Blood
+  CELL -38 -20, Gerson Region Area
+    ; cell is empty but there is a related LAND record
+  CELL -38 -21, Gerson Region Area
+  CELL -38 -22, Gerson Region Area
+  CELL -38 -23, Gerson Region Area
+  CELL -38 -24, Myth Region Area
+  CELL -39 -20, Gerson Region Area
+    ; cell is empty but there is a related LAND record
+  CELL -39 -21, Gerson Region Area
+  CELL -39 -22, Gerson Region Area
+  CELL -39 -23, Gerson Region Area
+  CELL -39 -24, Gerson Region Area
+  CELL DaggerSoul, Reagents, Potions & Alchemical Tools
+  CELL DaggerSoul, Jeremy's Armor of the Eight Divines
+  CELL DaggerSoul, LordOverkill's Aqua Glass
+  CELL DaggerSoul, CactusBoy's Extra Armor
+  CELL DaggerSoul, Daedric Armor & Weapons
+  CELL Regar, Guard Tower, Limited Liberty
+  CELL Mining Cave : Danderfluff, Storage
+  CELL Regar, Guard Tower, Canus Lithil  
+  CELL DaggerSoul, Afurn's Fine Weaponry
+  CELL DaggerSoul, Ebony Armor & Weapons
+  CELL DaggerSoul, Glass Armor & Weapons
+  CELL Bundin Mithkánoion, Vanor Throne
+  CELL DaggerSoul, Grenthumb Hardbottle
+  CELL DeepMarsh, Sackville-Bracegirdle
+  CELL Regar, Guard Tower : Raven Watch
+  CELL Regar, Guard Tower, Freddo Rocks
+  CELL Regar, Guard Tower, White Knight
+  CELL DaggerSoul, Armor of Brandybuck
+  CELL DaggerSoul, Ferdirand Proudneck
+  CELL Regar, Guard Tower, Black Heart
+  CELL Regar, Guard Tower, Blade Slash
+  CELL Regar, Guard Tower, Bright Star
+  CELL Regar, Guard Tower, Ghost Watch
+  CELL Regar, Guard Tower, Last Chance
+  CELL Regar, Guard Tower, Silver Star
+  CELL Raven Blood, Pimpernel Foxburr
+  CELL -36 -29, Regar Battle Arena
+  CELL Regar, Guard Tower : White Fox
+  CELL Regar, Guard Tower, Stone Star
+  CELL DaggerSoul, Hedgeworth Tavern
+  CELL DaggerSoul, Transport Service
+  CELL Raven Blood, Flora Brandybuck
+  CELL Raven Blood, Prisca Brownlock
+  CELL Raven Blood, Wilibald Burrows
+  CELL Regar, Bowls, Cups, and More!
+  CELL Regar, Guard Tower, Dead Fate
+  CELL Regar, Guard Tower, Tribunal 
+  CELL DaggerSoul, Armor Mannequins
+  CELL DaggerSoul, Dragonscale Shop
+  CELL DaggerSoul, Imperial Offices
+  CELL DaggerSoul, Imperial Storage
+  CELL DeepMarsh, Brownlock-Gamwich
+  CELL DeepMarsh, Orgulas-Tigerlily
+  CELL Gerson Region, Karish Castle
+  CELL Regar Mining Cave : Lorefury
+  CELL Willowstone, Captain Grayfox
+  CELL DaggerSoul, General Weapons
+  CELL DaggerSoul, Imperial Legion
+  CELL DaggerSoul, Lúthien Anárion
+  CELL -34 -29, Empire of Regar
+  CELL -34 -30, Empire of Regar
+  CELL -34 -31, Empire of Regar
+  CELL -35 -28, Empire of Regar
+  CELL -35 -29, Empire of Regar
+  CELL -35 -30, Empire of Regar
+  CELL -35 -31, Empire of Regar
+  CELL -36 -30, Empire of Regar
+  CELL -36 -31, Empire of Regar
+  CELL -37 -29, Empire of Regar
+  CELL -37 -30, Empire of Regar
+  CELL -38 -26, Empire of Regar
+  CELL -38 -27, Empire of Regar
+  CELL -38 -28, Empire of Regar
+  CELL -38 -29, Empire of Regar
+  CELL -38 -30, Empire of Regar
+  CELL -39 -26, Empire of Regar
+  CELL -39 -27, Empire of Regar
+  CELL -39 -28, Empire of Regar
+  CELL -39 -29, Empire of Regar
+  CELL -39 -30, Empire of Regar
+  CELL -40 -25, Empire of Regar
+  CELL -40 -26, Empire of Regar
+  CELL -40 -27, Empire of Regar
+  CELL -40 -28, Empire of Regar
+  CELL -40 -29, Empire of Regar
+  CELL -40 -30, Empire of Regar
+  CELL -41 -28, Empire of Regar
+  CELL -41 -29, Empire of Regar
+  CELL LuSar, Goldilocks Loamsdown
+  CELL Mountain Cave : Bracegirdle
+  CELL Old Forest Cave : Broadbelt
+  CELL Old Forest Cave : FernWitch
+  CELL Raven Blood, Olo Deepdelver
+  CELL Regar, Noble : Arkel Taneld
+  CELL Regar, Noble : Rothel Turyn
+  CELL Sothador, Brandybuck Tavern
+  CELL Sothador, Danderfluff Manor
+  CELL DaggerSoul, Temple Dungeon
+  CELL Gerson, Waterfall Entrance
+  CELL LuSar, Toadfoot Frogmorton
+  CELL Mining Cave : Willowbottom
+  CELL North Wing Manor, 2nd Main
+  CELL Raven Blood, Captain Fishy
+  CELL Raven Blood, Jenna's Grill
+  CELL Raven Blood, Karish Castle
+  CELL Regar, Shelly's Mini Store
+  CELL Willowstone, Training Area
+  CELL Yui, Cliffracer Outfitters
+  CELL DaggerSoul, Fine Clothier
+  CELL DaggerSoul, MoonLight Inn
+  CELL DeepMarsh, Hambut-Burrows
+  CELL Gerson Region, Tower Ruin
+  CELL Mining Cave : Danderfluff
+  CELL Mountain Cave : Linwëlin 
+  CELL Mountain Cave : Loamsdown
+  CELL Raven Blood, Jim Overcast
+  CELL Raven Blood, Lila Trample
+  CELL Raven Blood, Moro Foxburr
+  CELL Regar, Blades and Daggers
+  CELL Regar, Daumard - Clothing
+  CELL Regar, Guard Tower, Manor
+  CELL Regar, Noble : James Tong
+  CELL Regar, Soft Over, Storage
+  CELL DaggerSoul, Capital Hall
+  CELL DaggerSoul, LoSoth Manor
+  CELL LuSar, Galadriël Fëfalas
+  CELL Mining Cave : Deephollow
+  CELL Mountain Cave : Skarlakh
+  CELL Regar, Armor for Knights
+  CELL Regar, Draphen - Weapons
+  CELL Regar, Elvish Connection
+  CELL Regar, Rasole Hamilaya's
+  CELL Regar, River Side Resort
+  CELL Sothador, Jake Underhill
+  CELL Yui, Orgulas Frumblefoot
+  CELL DaggerSoul, Main Temple
+  CELL DaggerSoul, Moon Temple
+  CELL DaggerSoul, Star Temple
+  CELL DeepMarsh, Bolger-Combe
+  CELL DeepMarsh, Chubb-Pincup
+  CELL DeepMarsh, Petunia-foot
+  CELL LuSar, Hugo-Headstrong 
+  CELL Mountain Cave : Dwaling
+  CELL -42 -21, Myth Region
+  CELL Myth, The Hammer's Fire
+  CELL Rasole Hamilaya's House
+  CELL -37 -25, Raven Blood
+  CELL Raven Blood, Magic Shop
+  CELL Regar, Brokimenth Manor
+  CELL Regar, Sour Brandy Club
+  CELL Sothador, Glass Storage
+  CELL Willowstone, Barracks 1
+  CELL Willowstone, Barracks 2
+  CELL Willowstone, Barracks 3
+  CELL Yui, Borgulas Proudfoot
+  CELL DaggerSoul, Elasea Hyu
+  CELL DaggerSoul, Frór Manor
+  CELL DaggerSoul, Magic Shop
+  CELL DaggerSoul, Music Shop
+  CELL DaggerSoul, Rare Items
+  CELL Gerson, Jim Waterworth
+  CELL Karish Castle, Dungeon
+  CELL Mountain Cave : Súrion
+  CELL NewRock, Empty Orc Hut
+  CELL North Wing Manor, Main
+  CELL Regar, Imperial Office
+  CELL Regar, Morsiwë Storage
+  CELL Sea Dungeon : Voisaugh
+  CELL Sothador, Mine Offices
+  CELL The Attractive Arsenal
+  CELL Yui, Hamson Hardbottle
+  CELL Yui, Moon Frost Tavern
+  CELL Yui, Rudigar Greenhand
+  CELL DaggerSoul, Pet Store
+  CELL -33 -25, DeepMarsh
+  CELL Droof, Wizard's Tower
+  CELL Fantasy Man - Storage
+  CELL LuSar, Bodo Proudfoot
+  CELL LuSar, Linwë Ringëril
+  CELL Myth, Council of Myth
+  CELL Regar, Ashorr Schodyn
+  CELL Regar, Lowufotu Manor
+  CELL Sea Dungeon : Ryemkim
+  CELL Sothador, Ruby Bolger
+  CELL Yui, Elanor Tighfield
+  CELL DaggerSoul, Clothing
+  CELL DaggerSoul, Jay Mush
+  CELL Elador Council Manor
+  CELL LuSar, Fëanáro Eluch
+  CELL LuSar, Till Overhill
+  CELL NewRock, Sutwe Mokah
+  CELL Raven Blood, Weapons
+  CELL Regar, Anima's Manor
+  CELL Regar, Annytan Manor
+  CELL Regar, Fine Clothing
+  CELL Regar, ICE's Mansion
+  CELL Regar, Jorbe's Manor
+  CELL Regar, Rad'ghai, Top
+  CELL Regar, Saunusk Manor
+  CELL Regar, Sherrnnen Bar
+  CELL Regar, Strife Tavern
+  CELL -35 -25, Sothador
+  CELL Willowstone, Council
+  CELL Willowstone, Storage
+  CELL Yui, Lotho Brownlock
+  CELL Yui, Reginard Boffin
+  CELL DaggerSoul, Council
+  CELL DaggerSoul, Dungeon
+  CELL DaggerSoul, Library
+  CELL DaggerSoul, Weapons
+  CELL Elador, Spirit Soul
+  CELL LuSar, Puime Trojan
+  CELL Moon Temple, Bottom
+  CELL Moonlight Inn, Beds
+  CELL Myth, Full Moon Inn
+  CELL NewRock, Outlaw Hut
+  CELL Raven Blood, Trader
+  CELL Regar, Blade Corner
+  CELL Regar, City Council
+  CELL Regar, Elded Englor
+  CELL Regar, Garret Gunch
+  CELL Regar, Jade Overlay
+  CELL Star Temple, Bottom
+  CELL Yui, The Gold Horse
+  CELL Assassin's Hideout
+  CELL Bundin Mithkánoion
+  CELL DaggerSoul, Trader
+  CELL Gerson, North Wing
+  CELL Gerson, South Wing
+  CELL LuSar, Guard House
+  CELL Myth, Monk's House
+  CELL NewRock, Jobe Lobe
+  CELL North Star, Bottom
+  CELL Regar, Cooked Crab
+  CELL Regar, Onina Wilrt
+  CELL Regar, Reptile Boy
+  CELL Regar, Rofer Manor
+  CELL Regar, Rogue's Inn
+  CELL Regar, Scrib Shoes
+  CELL Regar, Smuar Draod
+  CELL Regar, Trader Cafe
+  CELL Regar, Wyvor Manor
+  CELL Sand Cave : Tirmin
+  CELL SoulSinker, Bottom
+  CELL Yui, Folo Overhill
+  CELL DaggerSoul, Books
+  CELL DaggerSoul, Smith
+  CELL DeepMarsh, Trader
+  CELL Elador, Ben's Inn
+  CELL Mall of Mournhold
+  CELL Myth, Public Pool
+  CELL NewRock, Orc Hall
+  CELL North Star, Cabin
+  CELL Regar, Blade Cafe
+  CELL Regar, Book Guild
+  CELL Regar, Cup Seller
+  CELL Regar, Grill Cafe
+  CELL Regar, Jinha Bobo
+  CELL Regar, Magic Shop
+  CELL Regar, Rare Items
+  CELL SoulSinker, Cabin
+  CELL Yui, Peony Bolger
+  CELL Abandoned Shrine
+  CELL Elador, Tuet Low
+  CELL Gerson, Yue Soul
+  CELL Myth, Huey Munch
+  CELL Myth, Julie West
+  CELL Myth, Lighthouse
+  CELL Myth, Sofar Lain
+  CELL nice tree houses
+  CELL North Wing Manor
+  CELL Regar, Bill Loft
+  CELL Regar, Bog Books
+  CELL Regar, Junk Etc.
+  CELL Regar, Mesa Wesa
+  CELL Regar, Red Ogrim
+  CELL Regar, Uhona Bar
+  CELL Sand Cave : Arun
+  CELL Sothador, Trader
+  CELL Elador, Council
+  CELL Myth, Mere Wosa
+  CELL Myth, Tred Hose
+  CELL Pyrimid, Inside
+  CELL Regar, Bow-foot
+  CELL Regar, Clothing
+  CELL Regar, Rad'ghai
+  CELL Regar, Spy Club
+  CELL Shank: Mey Yook
+  CELL Wyorver Library
+  CELL -41 -21, Yui
+  CELL -42 -22, Yui
+  CELL Yui, Mage's Den
+  CELL Gerson, Trader
+  CELL Myth, Jane Kar
+  CELL Myth, Windmill
+  CELL Nemon's houses
+  CELL Regar's Throne
+  CELL Regar, Elm-dra
+  CELL Regar, Fay Sil
+  CELL Regar, Flowers
+  CELL Regar, Hirococ
+  CELL Regar, Jim Bob
+  CELL Regar, Morsiwë
+  CELL Regar, Orengat
+  CELL Regar, PLATES!
+  CELL Shank: Rakizil
+  CELL Yui, Empty Hut
+  CELL Malicious Den
+  CELL Regar, Em-kim
+  CELL Regar, Lenoki
+  CELL Regar, Trader
+  CELL Regar, Walter
+  CELL Sothador Mine
+  CELL -31 -28, Myth Region Area
+    ; cell is empty but there is a related LAND record
+  CELL -32 -26, Myth Region Area
+  CELL -32 -27, Myth Region Area
+  CELL -32 -28, Myth Region Area
+  CELL -32 -29, Myth Region Area
+  CELL -33 -26, Myth Region Area
+  CELL -33 -27, Myth Region Area
+  CELL -33 -28, Myth Region Area
+  CELL -33 -29, Myth Region Area
+  CELL -34 -25, Myth Region Area
+  CELL -34 -26, Myth Region Area
+  CELL -34 -27, Kar Region Area
+  CELL -34 -28, Myth Region Area
+  CELL -35 -26, Myth Region Area
+  CELL -35 -27, Kar Region Area
+  CELL -36 -25, Myth Region Area
+  CELL -36 -26, Raven Blood
+  CELL -36 -27, Kar Region Area
+  CELL -36 -28, Kar Region Area
+  CELL -37 -26, Raven Blood
+  CELL -37 -27, Kar Region Area
+  CELL -37 -28, Empire of Regar
+  CELL -38 -25, Myth Region Area
+  CELL -39 -25, Gerson Region Area
+  CELL -40 -20, Gerson Region Area
+    ; cell is empty but there is a related LAND record
+  CELL -40 -21, Gerson Region Area
+  CELL -40 -22, Gerson Region Area
+  CELL -40 -23, Gerson Region Area
+  CELL -40 -24, Gerson Region Area
+  CELL -41 -20, Gerson Region Area
+  CELL -41 -22, Yui
+  CELL -41 -23, Gerson Region Area
+  CELL -41 -24, Gerson Region Area
+  CELL -41 -27, Myth Region Area
+  CELL -42 -20, Gerson Region Area
+  CELL -42 -23, Gerson Region Area
+  CELL Lysnrod Cave
+  CELL Myth, Trader
+  CELL Regar Temple
+  CELL Regar, Books
+  CELL Regar, Moran
+  CELL Regar, Nizin
+  CELL Bandit Cave
+  CELL Elador Dojo
+  CELL Yui, Trader
+  CELL Valior Den
+  CELL Yui, Books
+  CELL Yui, Fishy
+  CELL Yui, Smith
+  CELL _windmill
+  CELL Sofur Den
+  CELL Old Cave
+  CELL the Dojo
+  CELL Gerson
+  CELL Kar
+  CELL -41 -30, Amaurea
+    ; cell is empty but there is a related LAND record
+  CELL -38 -31, Amaurea
+    ; cell is empty but there is a related LAND record
+  CELL -37 -31, Amaurea
+    ; cell is empty but there is a related LAND record
+  CELL -32 -30, Volgar
+  CELL -31 -30, Eldvkin Keep
+  CELL -31 -29, Eldvkin Keep
+  CELL -29 -28, Volgar
+  CELL -29 -29, Volgar
+  CELL -29 -30, Volgar
+  CELL -30 -28, Volgar
+  CELL -30 -29, Eldvkin Keep
+  CELL -30 -30, Eldvkin Keep
+  CELL -30 -31, Volgar
+  CELL -30 -32, Volgar
+    deleted CELL -30 -32, Volgar                          ; empty cell
+  CELL -33 -30, Volgar
+  CELL -33 -31, Volgar
+  CELL -39 -31, Amaurea
+  CELL -40 -31, Amaurea
+  CELL -41 -31, Amaurea
+    ; cell is empty but there is a related LAND record
+  CELL -39 -32, Amaurea
+  CELL -41 -32, Amaurea
+    ; cell is empty but there is a related LAND record
+  CELL -40 -32, Amaurea
+  CELL Amaurea, Evelnor the Smith
+  CELL Amaurea, Rogfar
+  CELL Amaurea, Gloye
+  CELL -32 -31, Volgar
+  CELL -32 -32, Volgar
+    ; cell is empty but there is a related LAND record
+  CELL -31 -32, Volgar
+    ; cell is empty but there is a related LAND record
+  CELL -31 -31, Volgar
+  CELL -33 -32, Volgar
+    deleted CELL -33 -32, Volgar                          ; empty cell
+  CELL Cearina's Cabin
+  CELL Walnir's Cabin
+  CELL Denph's Cabin
+  CELL Hunter's Village, Trade Outpost
+  CELL Hunter's Village, Tavern
+  CELL Hunter's Village, Storage
+  CELL Eldvkin Keep, Town Hall
+  CELL -28 -29, Volgar
+    ; cell is empty but there is a related LAND record
+  CELL -28 -28, Volgar
+    ; cell is empty but there is a related LAND record
+  CELL -30 -27, Myth Region Area
+    ; cell is empty but there is a related LAND record
+  CELL -30 -26, Myth Region Area
+    ; cell is empty but there is a related LAND record
+  CELL -29 -27, Volgar
+    ; cell is empty but there is a related LAND record
+  CELL -28 -30, Volgar
+    deleted CELL -28 -30, Volgar                          ; empty cell
+  CELL -28 -27, Volgar
+    ; cell is empty but there is a related LAND record
+  CELL -27 -29, Volgar
+    ; cell is empty but there is a related LAND record
+  CELL -27 -28, Volgar
+    ; cell is empty but there is a related LAND record
+  CELL -27 -27, Volgar
+    ; cell is empty but there is a related LAND record
+  CELL -29 -31, Volgar
+    deleted CELL -29 -31, Volgar                          ; empty cell
+  CELL -30 -25, Myth Region Area
+    ; cell is empty but there is a related LAND record
+==============================
+Saved: PMR - Sea of Destiny 1.1 (fixed).esp
+

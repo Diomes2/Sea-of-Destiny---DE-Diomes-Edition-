@@ -1,0 +1,253 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red255\green0\blue0;\red0\green77\blue187;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\lang1033\ul\b\f0\fs22 Pinkerton's Mod Renovation Project\par
+\ulnone\b0\par
+\fs28 PMR - Sea of Destiny Complete 1.1\par
+\fs22\tab Original Mod by Clone\fs28\par
+\fs22\tab Cleaning/Moving by Pinkertonius\par
+\par
+An unofficial modification of the original Sea of Destiny (SOD) mod. This mod was made by Clone Studio and was a result of his/their hard work. All I did was clean it up and move it. Almost none of the original content has been changed since this is an "unofficial" ESP replacement. The mod accomplishes several things:\par
+\tab\par
+1. Changes SoD ESM to an ESP. \par
+2. Merges the SOD main file with the SOD patch and the SOD expansion Frostfall into a single ESP. \par
+3. Moves the SOD landmass 30 cells west and 10 cells south to make room for other mods that use this prime real estate. \par
+4. Cleans the mod of dirty cells and entries. Many of which had to be painstakingly deleted by hand. \par
+5. Fix a couple of scripts that were broken. \par
+6. Tidied up the edges of the landmasses and removed some unslightly and unfinished cells lurking off shore. \par
+7. Reordered dialogue so new entries no longer held the top position in the dialogue chain (see below for more details. \par
+\par
+\cf1 NEW* V1.1 Fixed travel SOD travel NPC's trying to teleport to old land location. Also moved one to correct region according to name and placed 4 other that were created but not put in game. \cf0\par
+\par
+(\cf2\i Ultimately, if I plan to minimize the availabilty of mass teleporting in favor of the more traditional Morrowind walking, bug taxis and rickety boats. )\par
+\cf0\i0\par
+\ul Installation\ulnone\par
+This is a replacement ESP. Just unzip and place the ESP into the Morrowind Data Files directory. And you have to download the original SEA OF DESTINY, then install it's meshes and textures etc into the same directory. \par
+\par
+\par
+\ul Requirements\par
+\ulnone Morrowind, Tribunal and Bloodmoon\par
+\par
+\par
+This mod has some great landscaping and buildings. All of that is Clones work. All I did was clean it and move it. \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\pard\qc\ul\b\par
+How I Did It (the War and Peace edition)\par
+\pard\ulnone\b0\par
+I originally just planned on moving the mod per a request on the forum. But when I checked the mod in Tesfaith I noticed many cells that looked dirty (i.e. randomly scattered all over the mainland). So I figured I clean it, that let to merging it, the testing it let to a few errors I had to fix, etc etc...For me this was a huge "trial and error" process. \par
+\par
+So this is roughly how I did it. Actually it was way more chaotic than it looks (I have over 20 variant esps from testing and trying to solve problems)\par
+\par
+First, I converted the "Sea of Destiny.ESM" to an ESP using the Enchanted Editor (EE). \par
+\par
+\cf1\i Load mod into EE. Select File->Change File Type. Choose Master Plugin. Resave.\par
+\cf0\i0\par
+Then I ran the esps through TES3CMD to clean them (kudos John Moonsugar!). Its a better \ul cleaner\ulnone  than TESTOOL by far.I found over 800 duplicate (dirty) references and over 30 junk cells in Sea of Destiny.ESP and SODpatch.esp just from this "automatic cleaning".\par
+\par
+\cf1\i Place TES3CMD in Morrowind/Data Files directory. Right click on \par
+the Data Files directory while hold SHIFT. In the command window that pops up, type "Tes3cmd clean <Modname.esp>\par
+\cf0\i0\par
+I merged all three esps into one main esp. No need for them to be seperate. Use could use TESCS, TESAME, or Smartmerger. Tesame only does two at a time and Smartmerger would have worked but since I was already using TESCS, I loaded them in there. \par
+\par
+\cf1\i Load all three ESPs into the CS with none active. \par
+Select Files->Combined Loaded Plugins\par
+Save as whatever name you want. Use that plugin from now on. \par
+\cf0\i0\par
+But SODFrostfall.esp was a bit more of a bear. Apparently something was wrong with one of the cells and TES3CMD wouldn't process it correctly. I had to tear the ESP apart using EE to find what was messing up the cleaning process. I would delete half, test clean the result with TES3CMD, and repeat until I found the culprit. Fortunately, it ended being just an unfinished cell so I nuked it (Wizard's Island did the same thing when I tried to clean it). Otherwise I would have had to "rebuild" it afterwards.  \par
+\par
+Next step was more thoroughly cleaning the cells. Alot of cells (ALOT) were ones that something was accidentally changed so an "automatic" cleaner wouldn't remove it. For this, I used a combination of TESCS, Tesfaith#, EE, TESPCD, and MWEDIT to examine the rest of the cells. This took much trial and error. Ultimately, I used Tesfaith (cmd line) to deleted about 30 more cells (at least, I lost count). I would repeat this a couple more times (for a cell here or there that I missed).  \par
+\par
+\cf1\i After getting a list of "dirty cells", load TESCS. Select Files->Data Files. Then highlight mod in question. Don't click "OK" to load, instead click "Details". A list of every entry in that mod will pop up. Find the cells in question, highlight, and press delete to mark them to be ignored(control click works to select multiple). Close that window and now click "OK". Immediately save and reload, and the marked entries will now be gone or returned to original non-modded state. (NOTE: make sure the LAND entries were deleted too along with the cell entries, as this may be why a moved landmass still messes up a mod it shouldn't)\par
+\cf0\i0\par
+\tab Next I used the TESCS to make sure all the cells were properly marked with a region. This is most important for the land you want to move since TESFAITH can move entire regions with one command. \par
+\par
+\cf1\i In TESCS, select World->Regions->Region Paint. Select the region you want to use and click on the cell you want to assign this region. \cf0\i0\par
+\par
+\tab Since Tesfaith (cmd line) uses a config file to process command (optionally) I just set it to move each region located on the island to the west and south. This way and cells connected or near the mainland aren't moved (don't need a guy in Balmora swimming in the middle of nowhere). After cleaning there were only 3 or 4 cells that didn't need moved anyways. \par
+\par
+\cf1\i Here's what I used for my TesFaith (cmd line) config to move the island:\par
+\cf0\i0\par
+\cf1\i tesfaith "Sea moving.esp"\par
+TR, "Amaurea", -30, -10\par
+TR, "Gerson Region Area", -30, -10\par
+TR, "Kar Region Area", -30, -10\par
+TR, "Myth Region Area", -30, -10\par
+TR, "Volgar", -30, -10\par
+\cf0\i0\par
+\par
+After moving the main island, I used the TESCS "Test AllLands" command to find and repair all land rips. I had to clean a few more extra cells that snuck in or I accidentally changed during this process.  \par
+\par
+\cf1\i In the TESCS, World->World Testing->Test All Lands. You can click on any cell that pops up and it will load. Then in the Render window, find the tear and fix it. Sometimes you can't see it and the only way to fix it, is to "soften vertexs" all along the edge.\par
+\pard\qc\cf0\ul\b\i0\par
+\par
+\par
+\par
+\par
+\par
+Then came dialogue! \par
+\pard\ulnone\b0 I didn't worry about the "overlapping topic names" (where a newer mod with the same dialogue topics would prevent the older mods topics from showing up). I did a rather bit of research into this problem. I created two mods with vastly overlapping dialogue topics including overlapping partially, at the beginning, middle or the end, words that contained the topic within it etc. As long as the dialogue lines were properly placed (and filtered) for each dialogue topic, the topics not only showed up and worked properly but all the hyperlinking worked perfectly. \par
+\par
+It is my belief, that the problem never existed. What I think was happening is that the individual topic dialogue would become broken due to poor filtering, improper placement, or just one mods dialogue superceding the others (example, both try to alter Fargoth's "punch me in the face" topic and thus the newest would end up above the older one and thus "break" the olders topic for Fargoth). Well that was a whole lot of reading for a non-action.  \par
+\par
+So what I did with dialogue was try and place the individual topic dialogue in a "safer" sequence order. For each topic the game engine read from the top down till it finds a dialogue line that meets the current conditions. That's why most lines near the top are filtered for a single person. Ideally, a mod shouldn't:\par
+\tab  1) alter the first or last line of a dialogue chain (this breaks the sequence numbers used to link dialogue...when a new mod adds them back add top...kabloom) \par
+\tab 2) alter Greetings 1 first line (this quest specifically has to be at the top to work correctly) \par
+\tab 3) should be place properly according to the filtering taking place (i.e. filter for a person...near top is ok..but for wide audiences should be nearer to the bottom so as to not "supercede" and "break" all the other dialogue topics below it.\par
+\par
+Sea of Destiny did two of three of these!So I moved any new mod entrys that were at the top (and most were) down. I not only needed to get the order corrected, but also has to restore the dialogue chain (sequence numbers) of the original dialogue. This is because a "clean" dialogue will always have the Next and Prev dialogue attached. Many mods with many different sequence numbers for Fargoth's "no seriously, Punch me in the face" dialogue will break things. \par
+\par
+The goal was to return the top two and bottom two original dialogues (original dialogue = from Morrowind, Tribunal, or Bloodmoon) back to their location on top or bottom while restoring the sequence numbers for the top and/or bottom lines.  So that the new mod dialogue is "between" original dialogue.\par
+\par
+\cf1\i NOTE: if the dialogue is already "between" original dialogue, you can skip this step. Also if it already is surrounded by two original dialogue lines with "*", its already as clean as it can get. \par
+\cf0\i0\par
+\par
+\cf1\i Dialogue step 1:\par
+Load Dialogue editor in TESCS. Find changed dialogue (has "*" next to it). No need to adjust dialogue unique to the mod. Select a modded dialoue topic (i.e. background). If it has new dialogue on top or bottom, find the first and second (or more if you like) original dialogue and move it up.\par
+\tab Highlight the dialogue line and press left arrow to move it up. Or right arrow key to move it down (if new lines have bumped the last entries)\par
+\cf0\i0\par
+Next I deleted the original lines that I had just moved back to top (and/or bottom). Yes I know, I'm deleting "original" dialogue. This is because but having moved them back to the top they still had "new" sequence numbers and would conflict with other mods, so I have to restore the original sequence numbers. \par
+\par
+\cf1\i Dialogue Step 2:\par
+Select the original lines that have an "*" next to them and press delete. Do this for all the dialogue lines showing unwanted changes. \par
+\cf0\i0\par
+\cf1\i Repeat Step 1 and 2 for all topics and all greetings and other tabs. \cf0\i0\par
+\par
+\par
+\tab Now with all entries in the proper order I just need to return them to the correct sequence numbers (particularly the first and last entry since they shouldn't have a PREV or NEXT entry (respectively). \par
+\par
+\cf1\i Dialogue Step 3:\par
+Save the mod after all the reordering and deleting work done. \par
+Now use the same method listed for deleting cells. Files->Data Files, highlight mod, select "Details". Select every line marked with a "D" (for deleted) and press delete. This will mark it ignored. Load the mod. Then immediately save it. Reload the mod (as Active of course) and check the results. \par
+\cf0\i0\par
+Now all the original dialog is in the correct location without an "*" meaning it's unmodified, but all new dialogue is in it's new location "between" the original dialogue lines. So all the original dialogue sequence number are restored. \par
+\par
+\tab But wait there's more! To prevent errors, there is one more step (yes Dialogue is a pain in the ...). Having deleted all the changes to original dialogue, only the new dialogue appears with "*" as expected. But Morrowind keeps track of whats next with those sequence numbers. Now the sequence numbers for the new dialogue lines don't match either preceding or following entries. The new entrie's dialogue will not be inline with the dialogue before or after it. That's where all those "string is different..." errors come from when you load Tribunal (Bethesda didn't know this either I guess). With a small amount of mod this might not be a problem but when there's alot things can break down fast. The solution is to include the original entry above the new dialogue(s) and the the one below.\par
+\par
+\cf1\i Dialogue Step 4\par
+To fix this, just move the new mod dialogue up once with the right arrow key then back. Then repeat going down (if needed) and back with the left arrow key. Now the entry above and below both will have "*"'s and all will be inline. Repeat for each block of new dialogue in each topic, greeting, etc that needs it.\par
+\par
+\cf0\i0\tab So now least two entries in each dialogue chain (that's from the original ESMs) will be "dupes". The top and the last of each new dialogue chain. Some will have more due to modified dialogue being in multiple places in the same chain. \par
+\par
+Now I can see this isn't the best, easiest solution but until someone make's a dialogue sequencer program to merger dialogue properly, this is as good as it's getting. \par
+\par
+\cf1\i Note of Grandiouse delusion: I plan to see if TESTOOLs merge dialogue can be manually fixed. If so then maybe the dialog equivalent of The Leveled List Resequencer can be made to fix it's merged dialog. \par
+\cf0\i0\par
+Lastly, I check the scripts. Fixed a couple of broken scripts. Originally I had used Enchanted and MWedit because of MWedits strict syntax but they ended up making my land disappear after I saved the script changes (don't ask me). Not wanting to do it all over again, I just fixed the ones that didn't compile correctly. SOD had a script that started with a description when it should have had the begin <script name> first. Easy fix. Another used BEGIN STARTSCRIPT which is a problem because STARTSCRIPT is a function. Another easy fix. \par
+\par
+\cf1\i Easy Method:\par
+In TESCS, select Gameplay->Edit Scripts. Select compile all. Note if any don't compile. Go in and tweak according to output. \par
+\cf0\i0\par
+\cf1\i Opposite of Easy Method:\par
+Load mod in MWedit. Select view->view new only. Select scripts. Open each one and click compile. Errors will be listed at bottom (including what line). Fix error in script and recompile. Repeat till you get zero errors. Then cut and paste it from the MWedit script window to the TESCS script window for the same script. Don't forget to recompile in the TESCS. Repeat for every script (obviously skipping ones that compile ok). \par
+\cf0\i0\par
+Save, reclean once more for luck, and then playtest to make sure dialogue works, land is visible, and nothing crazy is going down in mod town.  \par
+\par
+\pard\qc\ul\b\par
+\par
+\par
+\par
+TOOL NOTES\par
+\pard\cf2\ulnone\b0\i Enchanted Editor:\par
+\cf0\i0 I once love this tool but because of it I screwed up al least 20 versions of this plugin when I made changes. Not sure why but It kept removing the land. I believe is happened when EE would check for references and change them to match my changes. The cells and land data was listed but when I loaded the plugin in the TESCS, it was just statics floating in midair. As I said, I had plenty of times to test this and every time, it worked right before I edited it with EE then KABOOM!. This is unfortunate because EE lets you make changes than it will update every reference with that change which would save much time. Not sure if it does that with every mod but I think remember it happening before too. I just didn't make the connection at that time. \par
+\par
+\cf2\i TESPCD:\par
+\cf0\i0 I like this one as a quick diagnostic tool I don't really clean with it (it can't match TES3CMD). But it will show conflicting entries. Too bad this was never finished. You can also easily look at details (some data is just gibberish though). Really good for manually mitigating mod incompatabilities (outside of landscape stuff). \par
+\par
+\cf2\i TESFAITH#:\i0\par
+\cf0 This is the GUI version of Tesfaith. It uses a older version though so I mainly use it as a visual reference of what cells mods use and how big it really is. You can load all the mods you'd like and see which ones affect each and evey cell. It can even make a picture file of the mods for reference (although with too many mods its hard to differentiate). It's usually pretty easy to see if a "island" mod is dirty when there are modified cells all over the main Morrowind landmass. It does how ever show interiors that are "acting like exteriors" since they often have coordinates (most often at 0,0) So be careful you don't move those. \par
+\par
+\cf2\i TESFAITH (cmd line):\par
+\cf0\i0 This is the command line version of the above. It's newer and works better. You can use it command line style (like DOS or LINUX!) or you can use the config.ini. I use the .ini (see example when I talked about moving the island). This program can move, delete, copy cells. It can work with individual cells, regions, or even the entire mod. I stick to moving regions so that cell changes on the main Morrowind landmass stay intact. Sometimes this mean having to manually assign regions or actually make new ones. One note about TESFAITH though, its very Case sensitive. It kinda wonks out if you don't type the region exactly as listed. Capatilze if needed and check the actual region name with EE or the TESCS to make sure it's right. I also shorted the name of the plugin I'm using to not include any special characters or spaces (for the SOD plugin, I shortened it to Sea.esp). Once you're done, rename the output file (TFOUT.esp), open it in TESCS and immediately save. Then clean with TES3CMD when you have time. It's a finicky program but it's the only one to do what it does. \par
+\par
+\par
+\cf2\b\i TESTOOL:\par
+\cf0\b0\i0 Overated just because it was the first to do what it does and has been around so long (it also doesn't hurt that most other tools stoutly refuse to include a GUI). But it is still useful. \par
+\par
+\b Clean plugins\b0 : Don't bother cleaning with TESTOOL, as it's not completely trustworthy (it will occasionally break things) and it's not as full featured as its modern contemporary (TES3CMD). \par
+\par
+\b Merge objects\b0 : This it's best function. The only problem with merged objects is the lack of control. It's strictly a newer overrides older mentality but at least it keeps changes from the older mod if the newer one didn't affect that part (i.e. Fargoth mod A changes his strenght to 6 and mod B changes his personality to a generous 5, TESTOOL will include both because these individual parts don't conflict. Mod B will only override mod A if they change the same pieces of a mod entry. \par
+\par
+This of course is better then the TESCS method of new mods entries completely overriding old ones. Another problem is that if mod A had Fargoth which full plate armor in his inventory and mod B has Fargoth with some race S&M gear...then the merged object will include both. Imagine if 13 mods changed his inventory. When you look his corpse (what do you mean you don't kill Fargoth?), its a magical payday. \par
+\par
+\b Merged List\b0 : This, as far as a know, works fine. That is if you use Horatio's Leveled List Resequencer afterwards. This is because TESTOOL doesn't care the order it merges level lists. So a lvl 200 Rabid Fargoth could appear earlier in the list before the level 3 Vivec bunny. Nothing after the lvl 200 creature would appear because Morrowind would be waiting for you to reach level 200 so that Fargoth can foam at the mouth and chase you. Top down just like in dialogue. The lvl 200 will prevent the others from ever appearing. \par
+\par
+\b Merged Dialogue\b0 : is Briz-oke. No good. Crap. I don't believe it takes into account sequence at all. I plan to look into this further (see grandiouse delusion above). \par
+\par
+\b Check Conflicts\b0 : This is a great diagnostic tool particularly if you manually edit mods. It doesn't just list conflicting entries, it includes the contents and what parts conflict. \par
+\par
+\cf2\i MWedit:\par
+\cf0\i0 I primarily use this to check the contents of a plugin and to check scripts since it's very strict about it's syntax (more so than the actual game engine is actually). But I get a great sense of satisfaction from make every script in a mod bow before the cruelly demanding MWedit god. I can't remember why I stopped saving mods in MWedit but I think it was the same reason as EE (wonked up the land). \par
+\par
+\par
+\cf2\i Smartmerger:\par
+\cf0\i0 Era Scarecrow turned out one of the more advanced mod tools yet and did it all within two months. It's actually quite far along. And has some useful functions. It's primarily designed to merge individual plugins. But has more advance features than you can get in TESAME or TESCS. More control. Unfortunately you can't turn off Dialog merging at this time. While it's better than TESTOOL, it still isn't perfect so you have to watch it incase it has problems with the mods dialogue. Some work great, so if you can use it do, but for now keep an eye on what it does.  I do have a few ideas about how the author can go about fixing the dialogue linking if he ever returns. I have great hopes for this one (and now it has a GUI!)\par
+\par
+\cf2\i TESAME: \i0\par
+\cf0 One of the oldies. Kind of simple, but functional. Can merge two mods in the same manner as the TESCS (with out the unexpected ninja leftovers that TESCS sometimes puts in a mod when you're not looking). I don't use it too much. \par
+\par
+\cf2\i TES3CMD:\par
+\cf0\i0 A huge WOOT out to John Moonsugar!\par
+This program is great at cleaning, fixit, fiddling with a mod. It's very thorough and catches stuff other cleaner do while not breaking the mod (Yes, I'm looking at you TESTOOL). It can update the headers to match the ESMS, recover bad mods, dump data, and so much more. It even has a "fixit" command that will actually fix it (unlike ...ahem cough..TESTOOL...cough). \par
+\par
+The main drawback is no GUI. That does limit audience, because to be honest while versatile, the command line just isn't that much fun. Heck in windows, its a pain to even get it the directory you want. But I have a way:\par
+\par
+\cf1\i Manual Method:\par
+Find your Morrowind/DataFiles directory\par
+Right click it while holding shift\par
+Select "open cmd window here" and a Command box will appear with the directory all ready set to Data Files. \par
+As long as TES3CMD is in that directory, \par
+Type "TES3CMD clean <modname.esp>" or "Tes3cmd fixit" (to fix everything)\par
+\cf0\i0\par
+I also have made a bat file that will allow you to drag and drop an esp right on top of it and it will clean it then put the results and log file right back where the ESP came from. \par
+I use this for my "Morrowind Archive" directory. I like to clean the mods before I put them in my Data Files directory. Here's how (sampled for TESELINT)\par
+\par
+\i More "I hate command lines" friendly method:\par
+\cf1 Open Notepad. Cut and paste below. Save as .bat file where ever you installed TES3CMD.  Then find the file, right click and select Send->Send to desktop as shortcut. Now you can drag an esp from any folder onto your desktop shortcut and it will clean it and put the clean one right back where it came from.  \par
+\cf0\i0\par
+Batch file text (cut and paste the below)\par
+\cf1\i @echo off\par
+rem drag and dropable bat file\par
+rem put shortcut on desktop and drag esp onto it\par
+rem "clean" file and log will be added to same folder the esp came from\par
+\par
+tes3cmd clean %1 > %1-cleaned.log\par
+type %1-cleaned.log\par
+pause\par
+\i0\par
+\cf0 In my experience 95% of my mods were somekind of dirty. And this fixes that. \cf1\i\par
+\cf0\i0\par
+ \tab\par
+\cf2 TES3LINT:\par
+\cf0 This program is primarily a diagnostic tool. That's it's main function. It looks for common problems and notifies you so you can fix them. ESM dependencies that are unnecessary, duplicate entries, fog bugged cells, spells that are auto-calc'd etc. I use it to check to see if a mod changes stuff it wasn't supposed to (say changing every Guar to a 20 ft behomoth that shoots lasers from it's eyes). Its a good tip off tool.\par
+\par
+\par
+\cf2 MLOX: \cf0\par
+Do I really need to explain this one? Another John Moonsugar miracle. This one uses a HUMAN maintained database to analyze your mod load order and resequence it for your. It also lets you know if you're using an out of date version of a mod or if there are patches and such. A true must use utility (You don't want to have your "Everyone kicks Fargoth repeatedly" mod to be out of order do you). \par
+\par
+\par
+\cf2 Ordinator: \cf0 (search PES for Morrowind Textures Compress & Reorder)\par
+\par
+This is a fairly new tool, that will scan your mods meshes and textures and make sure they are all there. It also can move them to a more organized structure by editing the paths in the meshes. It can resize and recompress. Good for big mods that may not have all the meshes or textures included.\par
+\par
+\cf2 Wrye Mash:\par
+\cf0 Believe it or not...all these years and I haven't used Wyre Mash. Yes I know, I use every obscure tool under the sun but not one of the most widely praise ones. I think it's mostly because I spend most of my time editing mods and not playing them that I don't have the need to use it. But now there's a stand alone version too. Wrye does alot of stuff, Load order, managing textures patchs, merge...er...mash files and so much more. I have heard it has a little bit of a learning curve but if you're still reading this ridiculous document that's probably not much of a problem. Wrye Mash is the "Holy Grail" of mod management for the users. Get it love it, use it, unless you're like me and spend more time looking at ESPs with a hex editor. \par
+\par
+\par
+\cf2 Esper:\par
+\cf0 Looked to be a mod merge program to replace the CS (like Smart merger) but apparently still has a few bugs. Also, looks as if the author is done with it. Haven't used it because of this. \par
+\par
+\par
+\cf2 TESCS:\par
+\cf0 Ironically, after all these years and so many tools, I tend to use this one to edit a mod. Only EE and MWedit, have similar function to allow across the board editing, but as I already mentioned they sometimes gank up my mods. Also, its the only way to landscape so it's unavoidable for modders. It takes time, and its gots it quirks (what the @#$# did the TESCS just add 57 cells to my mod while I was making coffee). Just make sure you clean your mods afterwards. \par
+\par
+\par
+\par
+\par
+}
+ 

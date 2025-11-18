@@ -1,0 +1,1177 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\froman\fcharset0 Times New Roman;}{\f2\fnil\fprq2\fcharset2 Wingdings;}{\f3\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red255\green0\blue0;\red0\green0\blue127;\red0\green0\blue128;\red0\green0\blue255;\red127\green0\blue0;\red255\green255\blue255;}
+{\*\generator Msftedit 5.41.15.1503;}\viewkind4\uc1\pard\f0\fs20 ********************************\par
+\par
+\b\f1\fs36   \fs40 G I A N T S\f0\fs24\par
+\fs20\par
+     Creature Mod for \par
+\fs28 The Elder Scrolls III: \fs24\par
+       Morrowind\par
+       Tribunal\par
+       Bloodmoon\fs20\par
+\b0 ********************************  \par
+\b\fs26 v  2 .7.\b0 1\b   \b0 "Ultimate"\fs24\par
+\b\par
+ 2/10/03\par
+\par
+\f1\fs20 The Online Readme: \b0\f0 http://morepumaman.freehomepage.com/readme.html\par
+\par
+\b\fs24 Contents:\par
+\par
+1. Installing\par
+2. The Creatures\par
+3. \f1 Credits and references\par
+4. Important Info.\par
+5. Compatability\par
+6. Legal\par
+7. Version updates\par
+8. Bugs/Issues\par
+\par
+\fs20 Project lead, author, scripts & original 2d art \b0\i (textures)\b\i0 : Marty V. aka "The Puma Man"\b0\f0\par
+E-mail: tempusfugit99@yahoo.com\par
+Web Page: http://morepumaman.freehomepage.com\par
+\b\fs24\par
+The Puma Team \par
+\par
+\b0\i\fs20 (Giants Ultimate 2.7.1)\par
+\b\i0\f1 Original programming & scripts: "GhanBuriGhan"\b0\par
+E-mail: GhanBuriGhan@gmx.net\par
+\b Scripts, original 3d art \b0\i (models, animation)\b\i0 : "\f0 Elrihn"\par
+\b0\f1 E-mail: \f0 dark-unicorn@wanadoo.fr\par
+\b\f1 Original 3d art \b0\i (models, animation)\b\i0 : \f0 "H3rmit"\par
+\b0\f1 E-mail: \f0 george2@virgilio.it\f1\par
+\b Original 3d art \b0\i (models) \b\i0 : "LordOverkill"\b0\f0\par
+\f1 E-mail:  gameboymental@hotmail.com\b\par
+Original 3d art \b0\i (models) \b\i0 : "\f0 King Kong" aka "Killgore Killack"\par
+\b0\f1 E-mail: \f0 kingkongblue@lycos.com\par
+\b Scripting:\b0  \b "Lord Xeen"\par
+\b0\f1 E-mail: \f0 lordxeen@rpgplanet.com\b\par
+\i\par
+Special Guests\i0  \par
+\f1 Scripting: "\f0 Reznod"\par
+\b0\f1 E-mail: \f0 reznod@yahoo.com\par
+\b\f1 last minute 3dsmax help: \par
+"\f0 Michael "HelioS" Bennett"\b0\par
+\f1 E-mail: \f0 helios@rpgplanet.com\b\par
+\par
+\b0\i (\fs18 GIANTS Tribunal 2.6)\b\i0\fs20\par
+\f1 Original programming & scripts: Dave Gallop  aka "Horatio" \par
+\b0 E-mail: \cf1 daveg@fastmail.fm \par
+\cf0\b Original programming & scripts: "GhanBuriGhan"\b0\par
+E-mail: GhanBuriGhan@gmx.net\par
+\fs24\par
+\i\fs18 (GIANTS 2.0)\par
+\b\i0\fs20 Co-author, original programming & scripts: Dave Gallop  aka "Horatio" \par
+\b0 E-mail: \cf1 daveg@fastmail.fm \cf0\fs24\par
+\b\fs20 Co-author : Edd Williams  aka "Intelligentsia" \b0\par
+E-mail: edd.williams@blueyonder.co.uk\par
+\b Original 3d art \b0\i (models & skinning)\b\i0 : Jens Dahlke  aka "Prometheus" \par
+\b0 E-mail: dajen2@hotmail.com \fs24\par
+\b\f0\fs20\par
+\par
+\b0\f1 This Mod adds many new creatures to fight in Morrowind.\f0\par
+\par
+\b Giants\par
+Lich\par
+\f1 Wraiths\par
+Demons\par
+Giant Scorpions\f0\par
+\f1 Skeleton Gladiators and Knights\par
+Flaming Skulls and skeletal hands \par
+Dwemer Spikers, Mech Spiders, Mech Wasps and \f0 Golem-\f1 Prototypes\par
+Dragons\par
+Dragonlings\par
+Apostates \b0\i\fs18 (Beholders)\par
+\b\i0\fs20 Fire Spurts\f0\par
+Rot Worms\par
+\f1 Fire Daedra\par
+\f0 Seducers\par
+Shades\par
+Harpies\par
+Zombies\par
+Mummies \par
+Titans\par
+Trolls - Mountain and Cave Trolls\par
+Black Shadows\par
+Imps\par
+Face of the Forest\par
+Frost Elementals\par
+Elder Imps\par
+Ice Imps\par
+Field Haunts - Luminous Ghosts and \b0\f1 "\b Apparitions"\f0\par
+Wild Vampires\par
+Vampire Ancients - Ancient Vampire Lords\par
+Spriggans - Earth, Night and Famine\par
+Night Sprites - Frost Sprites\par
+Phantasms\par
+Phantoms\par
+Golems - Ebony, Glass, Earth, Automatons & Colossus\par
+Nymphs \cf2\b0\fs18 (warning: full female nudity used)\b\fs20\par
+\cf0 Giant Skeletons\par
+Giant Spiders\par
+\f1 Reiklers\par
+Reaver Kingpins\f0\par
+Shalk Stalkers\par
+Pack Nix-Hounds\par
+Killer Netch\par
+Sea Devils\par
+Gorgos\par
+Over 150 individialy crafted creatures in all!\par
+This mod will add animated blood, gore, dismemberment, enemy teleporting and transformation to some of these creatures in Tribunal and Bloodmoon versions \i only\i0 .\b0\par
+\par
+\par
+\b\fs32 I\fs24 nstalling\par
+\par
+\b0\fs20\par
+\b\f1 Important\b0 : Clean your save game of \b any \b0 previous version of GIANTS, \b except v.2.7\b0  \i (See important info section) \i0\par
+\f0\fs22 For best results start a new game.\b\fs24  \fs20 (\f1 except if you were using v.2.7)\f0\fs24\par
+\par
+\b0\f1\fs20 This is an ESM mod.\b\f0\fs24\par
+\b0\f1\fs20 1. Install the \b GIANTS: Ultimate "Data Files".exe \b0 pack first.\par
+\par
+2. Install \b GIANTS:Morrowind.exe \b0 if you only have Morrowind installed.\par
+    Install \b GIANTS:Tribunal.exe \b0 if you only have Tribunal expansion pack.\par
+    Install\b  GIANTS:Bloodmoon.exe \b0 if you only have Bloodmoon expansion pack.\par
+    Install \b GIANTS: Ultimate.exe \b0 if you \b both\b0  Bloodmoon and Tribunal\par
+\par
+3. \b\i (optional)\b0\i0  Create\b  \b0 your Master_leveled_list_file if you use Horatio's Leveled list merger \b v1.14\b0  per the instructions provided with that program. \par
+ \par
+4. Play your game. \par
+\i ( You may get error messages when you load your game the first time. Re-save.)\par
+\i0\par
+\par
+\par
+\b\f0\fs32 T\fs24 he Creatures    \par
+                                                                          \b0\fs20\par
+\par
+The featured new creatures are The \b Giants\b0  \f1 like the ones in Daggerfall. \par
+\par
+These enormous savage primitive-Humans the size of dinosaurs are extremely territorial and will kill all wayward explorers that enter into their turf. They are stupid descendants of ancient giants and not too many are left. They have only been spotted in the Grazelands, the Sheogorad region, inside Ghost Gate and Solstheim. ...and woe to the unfortunate to happen upon one. They are very good archers and wield a massive club weapon of their own making! They like to hoard precious gems they find in the mountains where they originate from and are immune to the cold. The foremost authority on Giants, \f0 Martyriinn, was last seen in the Ashlands region. Maybe you should seek him out to learn more...\f1\par
+\par
+\par
+\b Skeleton Gladiators and Knights\par
+\par
+\b0 Skeleton Gladiators and Knights are melee warriors, basically uber-skeletons FAR more powerful than regular skeletons. Skeleton Gladiators use magically enchanted weapons and (unlike skeletons) WEAR ARMOR that they take off the bodies of opponents they've killed in battle and is often mismatched. They vary in toughness depending on how much armor they happen to be wearing and what weapon they happen to be using.  Skeleton Knights wear matching armor but will not yeild it once they die. Knights are slightly more powerfull in general than Gladiators. \par
+\par
+\par
+\b Flaming Skulls and skeletal hands\par
+\par
+\b0 Skeletons often \i shatter into pieces\i0  when killed and once in a while a piece can come after you!! Sometimes in the form of a dismembered skeleton hand or a bezerk skull on fire!\b  \b0\f0\par
+\par
+\par
+ \b Lich\par
+ \par
+\b0 (\f1 like in Daggerfall) are the most feared skeletal undead. They usualy wear a cloak, are MASTERS of magic and use "The Lich's Staff" - an enchanted weapon that was basically made to make grown men cry out for their mommies! \b "Ancient Lich"\b0  never really die, they escape back to the nether world to reconstitute their physical bodies when it has taken too much damage and have the ability to transform into one or several "doppleganger" creatures as a last resort to hold on to our world! \par
+ \b Lich Kings*** \b0 have a crown and are the most powerful variety but are rare..thank goodness! Lich Kings stalk our world in disguise and have many guises to protect them. If one ever dares to defeat it, one must defeat its doppleganger facades first. Its like fighting a kind of demented chines box! It will transform  from one to the next, each one is worse than the last untill you finally expose the real, horrible King Lich! Much easier said than done.\par
+\par
+\f0\par
+\b Zombies\par
+\par
+\b0\f1 Considered the servants of the King of Worms, these are the poor souls that have been brought back by some dark power.  They walk the lands, mindlessly trying to kill others, possibly to make them suffer the fate they are wishing for.  They are like Corprus Stalkers with two main differences;  their killing skills have advanced greatly ...and so has their decomposition. Their decaying bodies will sometimes come apart and dismember on death!\f0\par
+\par
+\b Mummies\b0\par
+\par
+\f1 are powerful undead creatures (usually heroes, warriors and kings) that were actually preserved by humans.  They come in two distinct varieties - Mummies and Ascended Mummies. \b Ascended Mummies\b0  are called "ascended" because they are corpses that have undergone a preservation ritual and have "ascended"  from their tombs. They are not very old (some as recent as a few years) and their undead embalmed anointed bodies still posses the nimble and reactive muscle tissue that enable them to perform just like a living body! They move fast and wear armor, carry weapons and even use magic. It is possible to dismember an unarmored Ascended.\par
+The \b traditional Mummy\b0  is thousands of years old. They have lost all elasticity in their bodies and are completely propelled  by the black-magic that has risen them. Though they move very slowly they are extremely strong and nearly impossible to destroy. They will also hex you with "Mummy's Curse".\par
+\par
+\b\par
+Demons\b0\par
+\par
+From Hell! Skeletal, horned, tall and using only "flaming" weapons, they lurk in the deepest and darkest recesses of  Morrowind! \par
+\par
+\par
+\b\f0 Field Haunts\par
+\b0\f1\par
+include \b Luminous Ghosts\b0 , and the more powerful "\b Apparitions" \b0 . They haunt the Morrowind countryside only at night. Some types are luminous. The day time has an adverse effect on them...they perish.\par
+\par
+\par
+\b Wraiths \b0\par
+\par
+like in Daggerfall. These are very powerful black ghosts that have the unique ability to "teleport" themselves either near or at different locations around their attackers throwing them off. They may teleport many times before finally being destroyed. Sometimes they can disapear entirely and pop up again just when one least expects it during battle. They dislike the daylight but unlike Spectral Wraiths and other ghosts are not destroyed by it.\par
+\par
+\par
+\b Giant Scorpions\par
+\par
+\b0 Just like in Daggerfall, giant scorpions will attack you with their paralizing stingers and ripping claws!\par
+\par
+\par
+\b Dwemer Spikers, Mech Spiders, Mech Wasps and \f0 Golem-\f1 Prototypes\par
+\par
+\b0 Four new Ancient Dwemer automatons will dwell in the Dwemer Ruins!\par
+Dwemer \b "Spikers"\b0  are mechanized bone-grinding horrors. Testament of the Dwemer's violent nature, they are equipt with a spiked, "grinding" rolling bin. \b Mech Spiders\b0  are stronger that the Centurian spiders and prefer using physical attacks with sharp metal legs! \b Mech Wasps\b0  are one of the few machines the Dwemer invented that is capable of self-propelled flight! Unfortunatly its a "war" machine and its enemy is you! \par
+\b Golem-Prototypes\b0  are somewhat rare and are very early versions of the much more advanced "Steam Centurions" types. They are slow and go down easily but are devastating in close combat.\par
+\par
+\par
+\b Dragons\par
+\par
+\b0 Dragons are now being spotted in Morrowind. It would appear they're attracted to Dagoth Ur's recent rumblings. The encounters have been rare but it seems they have found a home in the Ashlands and the turbulent Molag Amur regions. They are known to breath FIRE and their fiery breath is inexhaustible. \par
+They are completely at home in the skies soaring for hours at a time. They are the new apex predators of the region and can consume anything alive in their path. They are huge and no other creature can match their size. Dragons have been said to have been "conceived of fire" so its no wonder that their lairs are active volcanic areas!\par
+\par
+\par
+\b Apostates \b0\i\par
+\i0\par
+sometimes known informally as Gazers or Beholders because of their giant cyplopse eye and many-eyed tentacles. These are hideous and foul aberasions which seemed to have spawned out of Dagoth Ur's rage! They are even more dangerous than Ascended Sleepers but thankfully more rare. \par
+\par
+\par
+\b Fire Spurts\par
+\par
+\b0 These are basically flames that have gained conciousness and blindly seek beings on which to burn on as  fuel. Unfortunatly, you are good fuel.\par
+\par
+\b\f0\par
+Rot Worms\par
+\par
+\b0 are basically giant maggots with an \f1 appetite\f0  for rotting (and living) flesh. These are one of the more foul scavengers of Tamriel and are usually found around the dead. \par
+\f1\par
+\par
+\b Fire Daedra\par
+\par
+\b0 (like in Daggerfall) are one of the more mundane, but dangerous, daedra from Oblivion. Slightly intelligent with some spell casting abilities, is greatly resistant to fire based spells. They will light up dark temples with their blazing torsos! \par
+\par
+\f0\par
+\b Giant Skeletons\par
+\b0\par
+\f1 These are the risen fossilized skeletons of  "ancient giants" that walked Tamriel many thousands of years ago but are now extinct. They are a strong opponent but are not as powerful as the bodies they used to belong to so many millenias past. They will use weapons against you so watch out!\par
+\f0\par
+\par
+\b Titans\par
+\par
+\b0\f1 are the largest two-legged creatures in Vvardenfell. There are two known types...one is alive the other is not! The \b Sea Titan\b0  is a gargantuan beast almost 50ft tall and lives out to sea. It occasionally comes to land to wreak havoc on the cities and devour everyone in sight!  Stay out of deep water unless you want to try and slay one...not recommended since they are about 20 times more powerful than the giants and twice as big!  The \b Titan Skeletons\b0  make Giant Skeletons look like midgets! These live in the harsh Ashlands and the volcanic deserts of Vvardenfel and will pickup boulders and throw them at you!! Slaying any Titan will reap one wondrous and rare treasures that appear magically at the slayer's feet.\f0  \par
+\b\fs24\par
+\par
+\fs20 Phantasms\par
+\par
+\b0 are to ghosts what Lich are to skeletons. Completely invisible, these powerful poltergiests will "posses" the armor and magical weapons of the living when going to battle . Only the best warriors can expell a Phantasm from the armor and weapons they haunt back to the nether world were they belong! \par
+\par
+\b\par
+Phantoms\par
+\par
+\b0 are undead type creatures that come in the three basic adventurer types: Fighter, Mage and Thief (Archer). These are precursors to Phantasms and will show up earlier in the game. They use the items they had in life, but the only part of the Phantom itself one can see is the glowing red eyes.\b\par
+\b0\par
+\b\par
+Pack Nix-Hounds\b0\par
+\par
+\f1 are aggressive young of Nix-Hounds and -NO- they wont carry your luggage. ;P\par
+Smaller than full-grown Hounds they always travel in PACKS of five or six (sometimes more) \par
+for protection. Pack Nix's are much faster, hit much harder but die much quicker. \par
+They will always attack in a group!  They are found in high vegetation regions.\par
+Since they are so young they have not been around long enough to contract diseases.\f0\par
+\b\par
+Killer Netch\b0  \par
+\par
+\f1 are the highly aggressive young of Netches and live that period of their \par
+lives only in the water. They are very much like jellyfish in this stage and are poisonous. \par
+They are smaller than full-growns and quicker. You will find \par
+them in "inland" waters mostly.\par
+\f0\par
+\b Harpies \b0\par
+      \par
+\f1 are the classic monsters of lore and look like Winged Twilights but are bigger\par
+(8 feet tall), super fast, fly waaaay up in the air and use magic as an attack! There are two types - The Brown Harpy and The Black Harpy.\par
+\f0\par
+\b\par
+Shades\par
+\par
+\b0\f1 are ghostly apparitions that only appear at night (and after nightmares). There are many types and they carry an assortment of personalized weapons unique to them. Some will use black magic against you. They vary from the Lesser Shade and stealthy "Shade Hunters" to the powerful "Shade Lords" that carry the deadly weapon - "Shade's Scythe"! They move in and out through dimensions but cannot survive out during the day.\par
+\par
+\par
+\b\f0 Black Shadows\par
+\par
+\b0 are strong Thief-type undead and haunt tombs.  They creep about silently, generate an aura of darkness, and themselves are near-pitch black. They carry their own Black Shadow Swords.\b\par
+\par
+\par
+Trolls\par
+\par
+\b0\f1 Trolls of Tamriel come in two very different varieties. \b Mountain Trolls\b0  and the more dangerous \b Cave Trolls. \par
+Mountain Trolls \b0 are ape-like woodland dwelers, with primitive intelligence that attack any creature not of their own kind. Mountain Trolls will do weak to moderate damage and are considered to be more of a nuisance than a real threat. This is because they will wear out your weapons and your fatigue (and patience) just trying to put one down since their bones and hide are so thick! Armor and shields are often made from Troll bones. "Jamison" Trolls are Mountain Trolls which like to wear armor! \par
+\b Cave Trolls\b0  (from previous ElderScrolls games) are the other variety. \b  \b0 These creatures with great strength and stamina live in caves mostly. Cave Trolls do venture outside in more desolate areas. A Cave Troll's dead body can \i ressurect\i0  after the Troll is killed! It is then best to "burn" the ressurected corpse as soon as possible!\f0\par
+\par
+\b\par
+Spriggans\par
+\par
+\b0 (like in Daggerfall) are creatures that appear to have been created by the land (Nirn) itself.  They are made of \f1  plant and mineral \f0 and live mainly in forests throughout tamriel.  Little is known of their culture. There are three known types - the \b Earth Spriggan\b0 , \b Spriggan Famine\b0  and the \b Night Spriggan\b0 . Each seem to represent the various states of the land - \f1 vernal good-yeilding time, harsh drought time and the dark world of the Nocturnal. Earth Spriggans are not aggressive and just need their space. They WILL cause harm to anyone annoying them or attacking them. So why attack a Spriggan? (All types are etremely powerful.) Well... they are a treasure trove of alchemical ingredients (some very rare). The Spriggan Famine is an indiscriminatly violent killer but thank goodness it is not common. The Night Spriggan is aggressive, supernatural in nature but nocturnal and cannot survive during the day. \par
+\par
+\b Night Sprites \b0\par
+\par
+Nocturnal, aggressive, thorny, dark creatures with glowing red eyes!  They come in tiny youngling sizes and full-size adults. They hop on two legs and resemble large crickets. The \b Winged Night Sprites\b0  fly and resemble bats in the night sky. In Solstheim \b Frost Sprites*\b0  are the kind that inhabit that region. Frost Sprites have a blueish-gray color and slightly diferent shape that is better suited to the cold environment but is still nocturnal.\f0\par
+\par
+\b Nymphs\par
+\b0\par
+\f1 (like in Daggerfall) are timid, humanlike creatures related to fairies and are often scared of humans.  They are not very strong but are immune to almost everything - except weapons.  In desperate conditions, they can throw a weak fireball at their opponent.  Often the best defense of a nymph is it's looks.  The creatures resemble beautiful nude women.  They are extremely quick and nimble and will give anyone quite a chase. They are sought out by lonely travelers not only for their beautiful bodies... they carry enchanted rings of all sorts (no pockets, he he). But they will not just give it up to you (the ring that is). These lovelies really know how to play hard-to-get. ;-P  \cf2\fs18 (warning: full female nudity used)\cf0\fs20\par
+\f0\fs18\par
+\b\fs20\par
+Wild Vampires\par
+\par
+\b0\f1 are the kind of Vampires that have moved out into the open wilderness. They hunt only at night since the day time can kill them. They will attack human explorers mercilessly for their blood and they also spread the dread disease "Vampirism".  If you are already a vampire, Wild Vampires can still pose a threat to you  because they belong to opposing clans. So if you do not belong to their clan they will still attack you. \par
+Wild vampires live by region according to where their hideouts are located.\b\f0\par
+\par
+Vampire Ancients\par
+\par
+\b0\f1 (like in Daggerfall) are the older Vampires that have survived centuries. They are MUCH more powerful than all other Vampires. They walk the land outdoors at night and indoors. They spread Vampirism and belong to the clans. They carry their own swords and usually wear a cloak as a display of their status to other Vampires. They are arrogant and do not like to be talked-to by the lesser vampires. The \b Ancient Vampire Lords \b0 are the oldest and most powerful of all! They are male. These wear a full set of "Shadow Lord Armor" and fancy themselves \i too good\i0  to wander outdoors. Since they are the Alpha Vampires they have all their needs met by lesser vampires. Thus, they remain in the relative safety of interiors.\f0\par
+  \par
+\b\par
+Sea Devils\b0  \par
+\par
+\f1 are an enormous variety of Slaughterfish as big as a Great White Shark and\par
+just as deadly!! They can sometimes be seen swimming with their dorsal fins out of the \par
+water (like sharks). They move about half as fast as their smaller cousins... which is \par
+still pretty fast!! They are one of the deadliest things in the Vvardenfell seas.\f0\par
+\par
+\par
+\b Golems\par
+\par
+\b0\f1 (except for the Automaton Golem) are made of the raw elements of nature like Atronachs. They come in four varieties \b Earth\b0 , \b Glass\b0  (glows in the dark), \b Ebony\b0  and the mysterious \b Automaton\b0  which is more akin to the Dwemer Steam Centurion.  Their attack damage is far worse than the Atronachs;  think of them as super-Atronachs.  The \b Golem Colossus** \b0  is so huge and powerful its more like a Titan than a golem. The Automaton Golem is of-unknown-origin.  It was never seen in Morrowind or anywhere else in Tamriel until recently. Now Automatons are terrorizing the Ashlands and Molag Amur regions. These mechanized terrors are rumored to have fallen from the sky in a "fantastic sky chariot" steered by a god-like race that lives beyond the clouds...... \f0\par
+\par
+\b Gorgo\b0  \par
+\par
+\f1 dinosaur-like, armor-plated, bipedal walking reptiles the size of a T-Rex! \par
+They spit poison FAR and like to suck your very "essence" first before they kill you \par
+to make themselves stronger. They will quickly drain you of fatigue with their paralyzing \par
+claws and sucking fangs! Poison does not seem to harm THEM much.\par
+Good luck!\f0\par
+\par
+\b Imps \par
+\par
+\b0\f1 (like in Daggerfall) are small bat-winged lesser Daedra. \b Common Imps\b0  are green, have an elfin face, the body of a bat and the skin of a lizard. They will use magic against their adversaries. They are fast, violent and relentless.\par
+\b Elder Imps\b0  are more rare, larger, more stocky and much more powerful. These seem to have been summoned by wizards from Oblivion and don't actualy live on Tamriel like the common Imps. \par
+The \b Ice Imp**\b0  is the cousin of the Elder Imp that lives only on frozen island of Solsthiem but it is sometimes "summoned" by the Elder Imps. Elder Imps themselves can be summoned as familiars but one must read the lore on them to find out how.\par
+\par
+\b Dragonlings\par
+\par
+\b0 like in Daggerfall. These are small Imp-like dragons that are common in Tamriel. They have the trademark pink scaly skin and are about as dangerous as a common Imp.\par
+\par
+\f0\par
+\b Seducers \par
+\par
+\b0\f1 are leather-clad Daedra vixens like the ones in Daggerfall. As beautiful to look at \par
+as they are deadly! They will quickly make shredded meat out of you with their expert melee attacks. \par
+They come in many different varieties. Look out for the ones with "red eyes" they're the worst! \par
+To escape defeat they have the abilty to transform into a lesser daedra!\par
+You will find Seducers where you find other Daedra.\f0\par
+\par
+\b Giant Spiders\par
+\par
+\b0\f1 What more can I say...like in Daggerfall! :p\par
+They vary in sizes from the smaller & nocturnal "Tarantula" to the enormous day-crawling "Giant Spiders". Watch out for their paralyzing venoms.\par
+\par
+\b Reiklers*\b0\par
+\par
+New larger ice minions will attack you on Solstheim!\par
+Reiklers look like Reiklings but are larger, carry Reikling Lances, are stronger and wear a spiked metal helmet!\par
+\b\par
+Reaver Kingpins*\par
+\par
+\b0 Not monsters per say but they act like them. Now you get to see the "bosses" of the Reavers on Solstheim. They wear completely unique full sets of "white-wolf" or "white-bear" ARMOR! \f0\par
+\b\par
+\par
+Shalk stalkers\par
+\b0\par
+\f1 are a stealthy variety of Shalk. They are virtually invisible, silent and fast. You wont know which way they're coming from - until its too late!\par
+\par
+\par
+\b\f0 Face of the Forest\par
+\par
+\b0 These are strong forest-dwelling spirits that haunt the denser forests in Tamriel, paricualarly Solstheim, but they've also been spotted in The West Gash and Grazelands. They resemble large floating wooden faces with large glowing red eyes and are seen only at night. There is usually an strange echoing "howl" that precedes them.\par
+\par
+\b Frost Elementals*\par
+\par
+\b0 These frozen hulking sprites live only on frozen areas like Solstheim. They make a strong advesary as they float and attack by physical and magical means. \f1\par
+\par
+\par
+\b Nightmares\par
+\par
+\b0 They will wake you in terror from your sleep and disappear just as soon as they came.....they are not real... are they?\par
+\par
+\par
+*Creature is only available with Bloodmoon installed.\par
+**Creature is only available with either Tribunal or Bloodmoon istalled.\par
+***Creature is only available with Tribunal installed.\par
+\par
+\par
+\b\f0\par
+\par
+\b0  \b\f1\fs32 C\fs24 redits and references\par
+\b0\fs20 (person's indirectly responsible for content, their mods and what it helped to contribute if known)\par
+\par
+\cf3\b DarkIllusion, Arthurius & Shaded Red\cf1  - Ultima Underworld: \cf0 Mysteries of the Abyss \cf1  \i (Dragons/\cf0 Dragonlings\cf2\i0\f2\fs16 f\cf0\i\f1\fs20 , common Imps\cf2\i0\f2\fs16 f\cf0\i\f1\fs20 , \f0 Giant Spiders\cf2\i0\f2\fs16 f\cf0\i\f0\fs20 , \cf1\f1 Fire Spurts\cf2\i0\f2\fs16 f\cf1\i\f1\fs20 , \cf0 Dwemer Spikers\cf2\i0\f2\fs16 f\cf0\i\f1\fs20 , Mech Spiders\cf2\i0\f2\fs16 f\cf0\i\f1\fs20 , Mech Wasps\cf2\i0\f2\fs16 f\cf0\i\f1\fs20 , \f0 Golem-\f1 Prototypes\cf2\i0\f2\fs16 f\cf0\i\f1\fs20 , \f0 Rot Worms\cf2\i0\f2\fs16 f\cf0\i\f0\fs20 , \f1 Apostates\cf2\i0\f2\fs16 f\cf0\i\f1  \fs20 and Wraiths\cf2\i0\f2\fs16 f\cf0\i\f1\fs20 ) - \i0 textures Puma Man\b0\par
+\cf3\b\f0 Caladan Brood, Keiji Kadekawa\cf0  - Moon's Spawn 1.3.3\i  (Seducers)\par
+\i0 ^\cf3 Mykul\cf0  - The Cloak of Three \i (Lich cloaks and hooded robes)\par
+\i0 ^\cf3 UserExists\cf0  - Armored Skeletons V2f\i  (Lich, Skeleton gladiators, Titan Skeletons)\par
+\i0 ^\cf3 Nightwing69\cf0  (Frank Myer) - Dragon and golem \i (Automaton Golem\cf2\i0\f2\fs16 f\cf0\i\f0\fs20 )\par
+\cf3\i0 Kenshin-dono\cf0  - KD Werewolf and The Scorned pack 1.1 \i (Ascended Mummies, Trolls) \f1 - \i0 textures Puma Man\f0\par
+\cf3 Wormgod (GT Noonan)\cf0  - Morrowind Advanced  \i (Earth Golems, Skeleton Knights) \f1 - \i0 textures Puma Man\i\f0\par
+\i0 ^\cf3 Lady Eternity, Proud Foot \cf0 - Dragon's Breech \i (\f1 Fire Daedra, Blood, Cave Trolls, Apparitions, Flaming Skull, skeletal hands, Demons\f0 )\par
+\i0 ^\cf3 Shazrak (Sven Bybee)\cf0  - Shadow Lord Armor 1.20\par
+\cf3 Dangleberry (Quentin Preik)\cf0  - Woodenfel 1.0 \i  (Night Spriggans, Night/Frost Sprites, Face of the Forest, Frost Elementals)\par
+\cf3\i0 Chris Woods\cf0  - Magical Trinkets of Tamriel Vol. I\i  (Black Shadows, Phantoms)\par
+\i0 ^\cf4 Neuman (Tom Oldani)\cf0  \i - \i0 Neuman's Black Leather Mod 1.2 \i (Cat-suites for female Vampires)\par
+\cf4\i0 Neuman, Nightstrider, Zenorf, and Fariel\cf0  - Better Bodies 1.0\i  (Nymphs) \i0 - textures Puma Man\par
+^\cf4 Rhedd and Allerleirauh\cf0  - MW head and hair nifs \i (Nymphs)\par
+\cf4\i0 Gorg\cf0  - Female Hair Pack III: Hair and Tiaras \i (Nymphs)\b0\par
+\b\i0\par
+^\b0\i\f1\fs16 GIANTS is dependent on this version of this mod. I cannot garantee if installing later versions of  the mod will alter or have a detrimental effect on GIANTS.\i0\f0\fs20\par
+\par
+\b\fs32\par
+I\fs24 mportant  Info\par
+\par
+\b0\fs20 YOU MAY \b NOT\b0  HOST AND DISTRIBUTE PUBLICLY ON THE INTERNET OR ANY OTHER VENUE OR USE THE ORIGINAL MATERIAL CONTAINED IN THIS MOD WITHOUT MY CONSENT. All non-original material is free to use. \i Please refer to credit sections.\i0\par
+\par
+This mod is protected by a sealed self-mailed postal-stamped CD-R disc dated  12/20/03.\b\fs24\par
+\cf5\b0\fs20\par
+\cf1\b\fs22 C\fs20 leaning your save game from an  previous version of GIANTS. ESP: \par
+\cf0\b0\f1 This is done by going into a interior cell (preferably a small shack with no creatures in it at all) and saving your game. Exit MW. Before you start your game again UNcheck the old GIANTS.\cf2 esp\cf0  from data files. Then load the save you just made. There will be many error messages so just ignore them and keep clicking yes to continue. Once done clicking save the game again. Exit MW. Install GIANTS Tribunal and check GIANTS \b esm\b0  in data files. Now load up the save and everything should be okay.\par
+ \par
+\b Note: \b0 To prevent headache of clicking "yes" a thousand times I suggest you change your Morrowind.INI file with this little tweak. In the Morrowind/Data files folder find your Morrowind.ini file (always make a back-up when editing) and add these lines:\par
+In the [General] section: \par
+\par
+AllowYesToAll=1 \par
+\par
+set it to 0 (the default if the setting is not present) to turn off yes to all. This will add a "Yes To All" button to the warning popups. \f0\fs24\par
+\fs20\par
+\f1 These monsters are tough so you will not see "most" of them until you reach level \b 10\b0 . \par
+You must be at least at level \b 40\b0  to be able to see all the types mentioned.\par
+If you just started playing Morrowind and really want to see a Giant right away, just go to\par
+the entrance of Ghost Gate there is one that lives around there for all level players. \par
+But be warned if you are below level 10 (or even above level 10) - run like hell!! \par
+He may not let you get through to Ghost Gate but if you are below level 10 you\par
+really have no business being in there anyway. ;-P\f0\par
+\par
+\b\i\f1 Prepare for the sequel  \cf6 "G I A N T S  II"\cf0 . Comming soon.\i0\f0\par
+\b0\par
+\par
+\cf2\par
+\cf1\b\fs32 C\fs24 ompatabily\par
+\par
+\cf0\b0\f1\fs20 GIANTS only adds more creatures to the leveled-creature lists of the original game but does not change any original creatures at all. GIANTS is more of an add-on for Morrowind than a modification.\par
+\par
+GIANTS will \b not\b0  be compatible with any other mod that changes Guards or any other Guard mod that does not specify \i "GIANTS compatible"\i0  like my other mod \b "Advanced Guards" \b0 does.\f0\par
+\par
+\cf3\f1 When using \b other\b0  creature mods GIANTS  \b REQUIRES\b0  the \b "Leveled List Merger Program v 1.14" \b0 for Morrowind! It will allow you to use \b GIANTS\b0   and \b other \b0 creature mods simultaneously! Download it at - \b http://morepumaman.freehomepage.com/newfiles/MW_ListMerge114.zip\b0\par
+\cf0\b\par
+\cf1\fs24 Bloodmoon-style Leveling\cf0\fs20\par
+\pard\tx6390\cf1 GIANTS Ultimate uses \cf3 "Bloodmoon-style Leveling"\b0  \cf1\b IN BLOODMOON VERSIONS OF GIANTS ONLY. This method basically puts leveled lists \i within\i0  leveled lists.\cf2  \cf1 This style of leveling creatures allows for each species to get a \i (more or less)\i0  EQUAL chance of spawning in the world. Some species have MANY more varieties than others so, before, the species with more varieties (namely GAINTS') would naturally occupy more slots in a leveled list spawn. The drawback was that since GIANTS' occupied more slots they had a higher chance of showing up. Now each species with all its varieties is put into its own special "species" leveled list. Those "species" lists then are put within the FINAL spawn and only occupy ONE slot in the FINAL spawn leveled list along with single creatures. The final result is that the "species list" (randomly selecting one of its many varieties) has an equal chance of showing up as the single creatures do in the game. A whole species and a single creature each now occuppy ONE slot in the FINAL spawn list. Bethesda's and GIANTS' creatures now spawn at an equal rate.\par
+\par
+\pard\cf0\b0 Nymphs REQUIRE the "path grids" I made for them in order for them to work right. If you have another mod installed that changes path-grids in the wilderness were they spawn at the nymphs may not run away. \f0\par
+\par
+\f1 This mod puts one large static object in Ashlands Region (-1, 16). It is pretty isolated and out-of-the-way and should not cause any problems with other mods.\f0\par
+\par
+\b\fs32 L\fs24 egal\par
+\b0\fs20\par
+YOU MAY \b NOT\b0  HOST AND DISTRIBUTE PUBLICLY ON THE INTERNET OR ANY OTHER VENUE OR USE THE ORIGINAL MATERIAL CONTAINED IN THIS MOD WITHOUT MY CONSENT. All non-original material is free to use. \i Please refer to credit sections.\par
+\i0\f1\par
+This mod is protected by a sealed self-mailed postal-stamped CD-R disc dated  12/20/03. \par
+\par
+I GIVE ABSOLUTE CREDITS AND RIGHTS FOR SOME OF THE \b CREATURE MODELS \b0  TO \b\f3 Infogrames\b0 , \b Inc and Eidos Interactive \f1 (denoted by \cf2\f2 f\cf0\b0\f1 )\f3 . \f1 THE MODELS ARE THEIR PROPERTY AND WERE MERELY CONVERTED FOR USE IN MORROWIND. THE NIF MODEL FORMAT IS SECURE AND THE ORIGINAL MODELS MAY NOT BE EXTRACTED. I DO NOT PROFIT FROM THE USE OF THE MODELS OR THE MAKING OF THIS MOD. THIS IS A NON-COMMERCIAL PROJECT. \par
+PLEASE SUPPORT \b INFOGRAMES & EIDOS INTERACTIVE\b0 . \b\f0\par
+\b0\par
+\par
+\b\fs32 V\fs24 ersion Updates\par
+\par
+2.7.\b0 1 \fs20 - (FINAL)\b\fs24\par
+\b0\fs20 Added Giant Scorpions!\par
+Duplicated "Galbedir" Npc in Balmora Mages Guild removed - fixed.\par
+No more baby-sized Gorgos in \f1 Sheogorad region - fixed.\f0\par
+Ascended Mummy Archer's inventory - fixed.\par
+Removed crime bug with Face of the Forests when they spawned too close to towns - fixed.\par
+Added rings and amulates of "Ancient Lich summoning" to the mod (Bloodmoon only)\par
+Few other minor fixes and tweaks.\par
+\b\fs24\par
+2.7 - \b0\fs20 (GIANTS: Ultimate)\par
+Updated the regular Morrowind version. Made a unique Bloodmoon version. Updated GIANTS: Tribunal.\par
+Added \f1 Wraiths\par
+Added Giant Scorpions\par
+Added Apparitions\par
+Added Demons\par
+Added Cave Trolls\par
+Added Flaming skulls and skeletal hands\f0\par
+Added \f1 Dwemer Spikers\par
+\f0 Added \f1 Dwemer Mech-Spiders\f0\par
+Added \f1 Dwemer Mech Wasps \f0\par
+Added \f1 Dwemer \f0 Golem-\f1 Prototypes\f0\par
+Added \f1 Dragons\f0\par
+Added \f1 Dragonlings\f0 .\par
+Added \f1 Apostates \i\fs18 (Beholders)\i0\f0\par
+\fs20 Added \f1 Elder Imps \par
+Added Ice imps\f0\par
+Added \f1 Fire Spurts\f0\par
+Added Rot Worms\par
+Added Black Shades\par
+Added The Face of the Forest\par
+Added \f1 Reiklers\f0\par
+Added \f1 Reaver Kingpins\f0\par
+Added Frost Elementals\par
+Added Frost Sprites\par
+Added a new version of Bloodmoon Spriggan\par
+\b Bloodmoon\\Tribunal only: \b0 Dismemberment now incorperates for the first time ever "LIMB DISMEMBERMENT" (arms)! More creatures now "bleed" including green blood for spiders! First "teleporting" enemies for MW ever made - Wraiths! The Giants no longer shoot arrows "over your head". \par
+\b Bloodmoon only: \b0 Now uses "Bloodmoon-Style" leveling. This means GIANTS' creatures are no longer more prevasive than Bethesda's. Werwolves will ROAM in Vvardenfell! Though still rare, I increased the chance of encountering a werewolf in the wild in Solstheim (it was practically 0 by default).  Added Reiklers wich use a completely unused creature mesh that came packed with Bloodmoon. Added Reaver Kingpins wich use completely unused armor meshes that came packed with Bloodmoon. Two classic GIANTS creatures are now "summonable": Ancient Lich are summonable, you must find "Martyriinn" and his journal somewhere in the Ashlands to find out about the other one! ;-) \par
+\b All versions:\b0  Brand new 3d models for Giant Spiders, Imps and Field haunts! New "custom made" weapon models for Vampire Ancients! New "real-time" vocal sounds for classic GIANTS Npc-creatures - Trolls no longer sound like goblins and Ancient Lich,/gladiators, Titans, Shades, Phantasms, Ascended Mummies now have reactions - scream, moan and roar! Seducers have voices for the first time! Nymphs now have that trademark "giggle" from Daggerfall. Chance of Vampire Ancients spawning in the outdoors has been reduced. ALL creature leveled lists REVAMPED! GIANTS' Spriggans must now be fought thrice.\par
+ \par
+\par
+\b\fs24\par
+2.6 -\b0\fs20   (GIANTS: Tribunal)\par
+Added Lich Kings.\par
+Added \f1 Fire Daedra\f0\par
+Added Skeleton  Knights\par
+Added The Golem Colosus\par
+Added 2 new Zombies\par
+Added a new version of Tribunal/Fire Moth Lich\par
+For the first time ever animated DISMEMBERMENT! Several creatures will decapitate or cut in half when killed! For the first time ever animated GORE! Blood splatters on the ground in real-time. Crime issues have been mostly RESOLVED with the guard-attacking scripts. New death animations for Ancient Lich, Seducers, and Shades and they will now "drop loot" when they die! Ancient Lich and Seducers can now "transform" into other creatures! New sounds added to many previous creatures like; new feet & vocal sounds for Mummies, Golems, Famines and Zombies and "flapping" sounds for flying creatures. Tribunal's creatures now inhabit Vvardenfell! Chance of Vampires and Shades spawning in towns has been reduced.  Chance of Nymphs spawning reduced. Chance of Seducers spawning reduced. \i Normal Lich\i0  have had their names changed to \i Skeleton Gladiators (more \f1 appropriate\f0 ) \i0 and many new tweaks and enhancements for previous creatures. Death "shattered-bone" animations for all of GIANTS' skeletal enemies. Death animations for Phantasms. Better balancing of levels; difficult creatures have been moved up a few levels and easier ones moved down a few. Dreugh Warlords (left out by the game) introduced into creature lists. Guards will attack Dark Brotherhood assassins. Textures have been changed to the smaller .dds format. Self installing program now used.\par
+\b\fs24\par
+\par
+2.5\fs18  \b0\i (enhancment patch 5)\b\i0\par
+\b0\fs20 Sun-death crime bug has been resolved. (This makes GIANTS 100% compatible with mods that add outdoor gaurds). Shades and Wild Vampires will now stalk towns & cities on a regular basis.\par
+Fixed the path-grids in Addamasartus cave. Fixed the Gnisis gaurds. Uses my "Gnisis Gaurd Fix mod" changes. Titan's scripts death-message made more specific. More treasure added to one Sea Titan's script. Raised the Blunt weapon skill of normal Lich and Phantasms. "Auto-calculate" has been removed from all spells and enchantments. (Makes this mod more compatible with mods that alter the game's default settings). Giant Skeletons and Automaton Golems made a bit tougher. Giants and Shades now use the "marksman toggle" script that enables them to switch from marksman to melee weapons and back again on-the-fly depending on the distance from enemies. This enables Giants to carry much more arrows. \par
+\par
+\par
+\b\fs24 2.0 \fs20 - \b0 All previous creatures have been re-textured and/or modified in someway.\par
+Added Mummies.\par
+Added Zombies.\par
+Added Shades\par
+Added Titans\par
+Added Wild Vampires\par
+Added Vampire Ancients\par
+Added Field Haunts (Luminous Ghosts and  Spectres.)\par
+Added Golems.\par
+Added Spriggans.\par
+Added Night Sprites\par
+Added Phantasms\par
+Added Nymphs.\par
+Added Trolls.\par
+Added Imps.\par
+Added Giant Skeletons\par
+Added Giant Spiders\par
+Added Shalk Stalkers\par
+\f1 A Breakthrough! \b NOCTURNAL\b0  monsters!! Now the nights of Morrowind will fill you with DREAD!  \par
+Guards will finally attack \b all\b0  Npc-creatures these include Giants, Gorgos, Lich, Seducers, Trolls, Shades\par
+Nymphs, Phantasms, Titans & Vampires . Pack Nix-Hounds are now leveled creatures so you wont get all of them at once at level 1.  The Giant's Club is now a unique-looking weapon and weighs a fraction of what it did before and the same goes for Gorgo armor. ....try them out!  =)  The normal Lich now wear ALL of the armor in their inventory. Blunt weapons added to normal Lich. Red-eyed Seducers will now only use the best weapons. Looping creature sounds now stop (eventually) when you are in menu mode. The mod has been cleaned more thoroughly with TES Advanced Ed. and most altered landscape has been returned to its original state.\par
+\f0\par
+\par
+\b 1.3.1 - \b0 Updated the Ancient Lich cloaks with Mykul's more recent "Cloak of Three" Cloaks and changed                                                                                                                  some Ancient Lich to wear Mykul's new "hooded" Robes! \par
+\par
+\par
+\b 1.3 - \b0 Added Lich to the Mod. I used the "Cloak of Mykul" they-said-it-could-never-be-done plugin by Mykul for the ancient Lich and 3D NPC-skeleton models and skins by UserExists! Special thanks to Mattesnille from Tamriel Rebuilt forums who  helped me out with the Lich sound scripts.\par
+Mystery creature added for very high-level players (you won't see this one ANYWHERE untill you reach level 35). You must find and read "Martyriinn's Journal" (somewhere in the Ashlands wilderness) to find out WHAT they are. (or bump into one of course =-P)\par
+Path grids added for all Pack Nix-hound packs. This means they wont get "stuck" anymore when trying to get you from an obscure angle. The giants have been tweaked to make them slightly more challenging for stronger players. Don't worry...only slightly. =)\par
+   \par
+\b 1.2 - \b0 Added "Seducers" thanks to Caladan Brood and his team's magnificent "Moon's Spawn" Mod. I imported them into my mod and modified them somewhat. The Seducers where designed by Keiji Kadekawa. The Shadow Lord Pouldrons were designed by Shazrak. I tweeked the Giant's Metal Club to do slightly more damage this time. \par
+\par
+\b 1.1 - \b0 Fixed problem with the "all Levels" giant at GhostGate. I neglected to get rid of his faction affiliations so if you attacked him first & you belonged to house hhlaalu you would be expelled. He also DOES NOT respawn anymore as I had originally intended but somehow overlooked.\par
+\par
+\par
+\b\fs32 B\fs24 ugs/issues\par
+\par
+\b0\f1\fs20 Some creatures occasionally lose their innate abilities like transparency and glow but not often. \par
+Titan Skeleton corpses cannot be looted (a glitch with the skeleton models) that's the main reason the treasure appears magically.\b\f0\fs24\par
+\par
+\fs20 Regular Morrowind version only:\fs24\par
+\cf1\b0\f1\fs20 DO NOT sneak up and \i back-stab \i0 an Npc-creature in the cities near a guard, you will be charged with the crime. Let it notice you first before you attack it (this only applies in cities around guards). Sometimes if you resist arrest and \f0 later the guard kills the Npc-creature, you will get charged with the murder\i  (but who resists arrest anyway).\cf0\par
+\i0\par
+\b Tribunal & Bloodmoon versions only:\b0\par
+If you attack some Npc-creatures around guards you may get a messege "\i Your crime has been reported\i0 " but you will \i\fs22 not\i0\fs20  be charged  with any crime and you will \i\fs22 not \i0\fs20 get arrested. \f1\par
+ \par
+\par
+Before you email me with any bug reports please get technical support at this web address:\par
+\b http://morepumaman.freehomepage.com/support-main.html\b0\par
+\par
+\f0\par
+\b\fs32 S\fs24 poilers\par
+\par
+\b0\fs20 I'd tell ya \b\fs24\par
+\cf7\b0\fs20 SPOILER WEB PAGE: http://morepumaman.freehomepage.com/photo3.200303011132.html\cf1 /\b\fs24\par
+\cf0\b0\fs20 ...but then i'd have to kill ya. ;-)\b\fs24\par
+\b0\fs20\par
+\par
+\b\f1 Thanks to the MW mod community and everyone involved (directly or otherwise) in this project.\par
+\f0\par
+\par
+  Puma Man\par
+\b0\f3{\pict\wmetafile8\picwgoal1200\pichgoal900 
+0100090000032a2c00000000142c00000000050000000b0200000000050000000c023306440814
+2c0000430f2000cc0000004b00640000000000330644080000000028000000640000004b000000
+010018000000000000000000741200007412000000000000000000001d2b6c384b8f4e6db92a51
+a6043795003ca1003da3064eb30044a5014aa7054aa400469d01479e094ea80c55b20c57b4175d
+b41d62b91659af1d5eb30b4a9f2560b71a4dab063297092c9a0c2a9a0c26970e2592142b8e172f
+8a0e2778001a67001653172f6c253d781c366c1330641835681838670e315e0e345e0e345e143b
+6810376401285601275800255800174a002b580e3b68063360063360001f4d07305e0027550125
+5407295812346310305f0c2c5b153363163464132f5f16326217365c15365e1235620d33640a31
+65082e65082c630b2a620c265c13296415296a0d226d081f7607228406238f01219200248a0026
+8c00268c00258b00228800208600218700228800218700288e002387002588073a9b0d42a3013a
+970034910c3989173d8e25429431439727357742549a5a76c4365ab10f3f9e0b45a80648ac1157
+bb0b51b01056b41057b20a52ab064faa0953b20955b80655b7125cb51961ba1359b0195eb4074a
+a02260b8164bac013198042a990628990724960823920f298e132c890a247700186600104d0f29
+661d38721430660e2c60153466133564092e5b09315b072f590c36620a3460002957042e5e0934
+66012c5e002b590e4573164a792153820e3f6e1e4c7c1642721a4474052d5e0f37680a30610427
+591031631637691837691d3c6e15365e14365f1034630c3366093067072e66062b64092a630621
+5a0e26631025690a206d061e7709258a0c2b990b2ca0133ba5143ca6153da7133ba51237a41136
+a31037a41138a50c36a0113ba509369e093b9f1b50b21f56b8144cac1048a817448e214893304d
+993c4e9c28367845559b5c76c3385cb112419e0f46a80c48ab1759b91155b3165bb6165bb50d54
+af044fac034fb2004fb5004bb30d5ab71560bd0f58b3165eb70549a3205fbb124bae00309b0028
+9a02269b0423970622920a278f0f2a8b062379001668000b4809246116326c0f2c6209295d1031
+630f3362042b580c3660032d57022d59002b570027540937671d4d7e2050811958851453800845
+722e68964a83b16aa1cf4579a82254831b4c7b225080133f6f022c5c062e5f0a32630b31621036
+6715375f1337600f36640b3466083268062f67062d65092a63021d570b22610e2368091f6c071f
+780c288d1132a01336a90f35a51137a71238a81036a60b32a50930a30a31a40c33a6012b9b0631
+9f002c9801319a1547ab174cae0c41a2093e9f214e922a519639559c45579f2c3879243378566f
+b94467b817439b00328f255ebb0d49a61352ad1151a90b4da5074ca60850af0753b7004db60044
+b00957b50f5cba125dba0750ab074ca71b5bba1952b8002b9700219500259c05269b0623950725
+8f0b288a08267e01217406215e0924610b29630d2d62082b5e05285a052c5a08325e0f3b64002b
+540936620636610f406d3e6f9e497aab396a9b226995226995206591377ca80d517d3a7ba83170
+9d16507e245d8b174e7c3a6e9d093b6a0536650536650634640b39690e325b1036600b3364032d
+61042f670a356f08306b022460001c560f28670f266b001665001974102e94173aa91034a90b31
+a8082ea50a2fa80e33ac0930aa0229a3052da50f37af0530a61843b70937a4002b971a4ab12a5c
+bf2254b52053b106326e062e6a0d2a68172969343e7e2c3a7c5a70b84868b51741950230882459
+b1124aa2124da31b56ac1f5db21555ad0045a4003da40048b40657c40656b40c5ab80f5cb90551
+ab044ba6175ab81450b5002a9600269900289f07299e0727980929930c2b8d092a81012376001b
+58041f5c07255f09295e06295c042759042b5906305c00264f00264f0f3f6a3466916295c11a4c
+7b5185b500235304507b0a5681105a85014b763e85b11a5f8b0b4f7b0c4d7a00315e64a1ce0d47
+753972a02a618f265d8b001c4b003261133760113761093363052f63042f6706316b032b660024
+5f16346e0b266400185d0019680e29841b3aa01b3ead1539ae0f33b00b2fac0a2fae0c31b0062e
+ac0028a6032ca80b34b00730aa113aae002a9800268f1645a82452b11945a316439e012b5f0027
+5b0420560a1e5537417c2f3c7b5368ac4967af2248971641913666b72b5eae2a60ae1f57a61a53
+a21752a80c4cab0043a80043b0004bbc0555b30b59b70e5bb80551ab014aa51357b5114db20029
+9500269900299f05299e0527980a2a940c2d8e072a81002174001956031d5a07235d0a275d0828
+5c072a5c062d5b052f5b0b37600a38613565902658834a7da9043867255b8b386e9e17658d1e6c
+94003d6517648c256f98236b9400345d1359824387b117598315557f1c5c86316e993f7ca70f4a
+7508436e153c630e375f063360063365033167002c6300275f00265e0a2b6403205e052064112e
+7a16348c0c2e92042996032a9d072cab052aa9042bac082fb0072fb0062eaf0b34b2133cb80026
+9e062da0042e98103a9e2650ae1c479f00297d00196b09305d092c590a24530e2050232e651523
+5e283c7c2944870d31780a327a1f4a9417448e3060a720519a1a4c991f56a81b57b20848ad003c
+aa003bad0555b30a58b60f5cb90854ae034ca71256b4104cb1002b9700249700269c01259a0325
+960828920a2b8c03267d001c6f041c590a225f0c27610c285e0c2a5e0b2e60082f5d032d590027
+50719fc86494bf1648731a4d79598dbc386e9e6ca2d24b96bd176289145d840c557c1e648c0f55
+7d2e749c347aa24e93bb1b5e861d5d8600335c609ec73b79a232709900042d10396008335b0532
+5f063667043469002b6200275e022961092a63072462092468112e7a19378f15379b0b329f042e
+a00730ac062fab052eac062fad0730ae0933af0c37b0113bb3103aac0b329f052d9009338d143b
+90103783072d74062d720c31560c2e530f284f14244c2d396a16245910245e15306d0222640326
+69022a6c00226411397b1942872b549c315eae1f54ac0640a3003ba70444b40455b10958b4105e
+b80d59b20751aa1257b2114db000319b00259700269a012699032695092a910c2c8c04257b001a
+6b081d5b0f24621028630e285e0c295d0d2e60072b5a0024512f59836b99c203335e4779a45386
+b270a4d3356b9b002f5f86c9ef4b8eb41d608605486e2d6e944788ae62a3c95b9cc263a4ca3475
+9b71b0d6306f9514507769a5cc4e8ab1000c33032f53022f5503335e063867033668002f64002c
+61022c6203275e01215d001456000e57002076163b9c153fa90431a00e3ab00e3ab00937ae0634
+ab0533aa0432a80431a403319e00299100278a0830891037860b3178052a67072b620a2d60062a
+490928480d244512204339477223315f0f22561b356b0e2c681133700529660125620527640c2f
+6e193e83254d992654ac1c51b30d47b2023fae0253af0756b2105eb80f5bb40953ac1257b2134f
+b200359f00299b00299d03289b0629980e2f9610309006277d001b6c061b590e23610e26610923
+5909265a0b2c5e032756001c4990bae4608eb74979a4689ac5023561000c3b001e4e000e3e0026
+4b74b0d579b5da90ccf15995ba3f7ba000193e07436807436889c5ea357196407ca1417da21d59
+7e437fa45692b7002246002d5306365f05386403366803356a013166002a600024581d40792849
+8811337a00217601298908329c03309f0232a30535a60436a70335a60537a80a3aa90939a40434
+990e3c9b123d932149951d4587082d660327560b2d5607294e0b2c460f2d47162a461925422f3b
+641f2d58091b4b1a33660b285e11306801225a0a2961102d650b29650424660b2e77224ba12f5e
+c01950ba0033a0004ea80351ab105cb5115cb20b53aa1256b0144fb00338a0002b9a002a9c0528
+9908299711309611328f06287b0019690518560e215f0f25600a21580b255a0f2e60072958001b
+486791bb3460893d6a9607376200315e5284b35f93c32c629232668b5286ab194d720d41664d82
+a73b709500113600012600284d01365b38709440789c40789c1e567a154d7176aed200193b0230
+53093c63023862003565063b6d0235670025582c5386496da45779b64062a81c409308308f0633
+9b0a39a6002b9600319c0036a00138a2083ca70f42aa0c3ea103369306358a002c770027670011
+4500002200052600203b001d340425390a273c13283e19263d3d4a7133426a1b2e5b2b4273122f
+63143167012156112e640d295f16326c102e6e05276e0b32871c4aa9164bb3043ba8004aa4004e
+a80d59b2105bb10b53aa1155af144fb00338a00028970027990225960526940e2d930f308d0325
+780015650518560f22601026610c235a0e285d1433650c2e5d001f4c2d5781608cb53a67934d7d
+a85586b31e507f2054842b6191507fa544739900153b1a496f0f41666799be316388386a8f4e82
+a715496e5186ab1d5277174c716a9fc4194e7372a7cc0014360432550e4168023862003563093f
+6f033767001f515e85b8385c931537740d2f7514388b11399804319900299603399f093fa50840
+a6043ca2063ca2073b9f00329000257d0637861d4c914774ae5780ae4a6f9451748f4d6d832848
+5a000a1c000f21001427071429405c7e2e496e213e641d3e66143764022859002458042b63133b
+7600256100215f0023610d32701f44822548873558971758a30c4d991556a41958ad0b4aa51452
+b11a55b6013a9d003094002d9008309313379613338d09267a021f710520710b2b5f0222560326
+5806295b0326580d3062143b690b346200214d16416d0e3c653e6c956393bc6a9ac35d90b8002e
+564a83b16da6d40028564a83b179b0de002b59356a96114470295a87073865001d48002c5794c1
+ed5481ad3f6c980018440433600c3b680b3c6b0536650536670a3e6e04376900295b4c7cb14977
+ae002660000c4700225d0f346f4466a35d7fbc4679bc598ccf4c82c2487ebe558cca366ea8154c
+84245b8f598ec06495c6618fbf5c86b46990bd789bc66587b041628a000c190014210c222f0c1f
+2d4762843d577c2b466c16355d0c2c5a082b5d072b60032861032964032865052a6800205e0018
+57001c5b07296620427f00408813529d2768b42260b31856ae2d69c62a64c4003597013396022f
+91062e8e0a2f8b082980001e70001b6c04206e001f5307275b1134661134660c2f611134660c33
+61002250022d592e59851d4b740e3c6500204903335c5d90b86a9dc5376e9c1d548200356396cd
+fb5387b6001b4a0017431b4e7a1c4d7a396a978fbfea84b4df1f4c783c699500224e012c580938
+650b3a67093a69053665053667063a6a05386a003365002d62225087608bc53e66a1000d480019
+54345693486aa74f7fc05686c73d70af2c5f9e396da93f74ae4174ad5284b96e9ed16b98ca5d89
+b9517aa8577ca95576a128487200133d112739001022000d1f0315274f68894f678a3b557a1e3b
+6112325d183a6916396c092d64001c5500235e001e5b001e5b082a67092b68042460042460002c
+710c468e2661aa1f59a60a4497134ba31a4fa9073a9702339003308b062e88072b82022576001e
+6b001f6b08256f0b2e610023560020520023550022530023540a33611b44720016422d58844876
+9f507ea725557e1848715686af6393bc3e739f3b709c1d527e265b87356894083b672f618c7daf
+da4575a01a4a7529568200154105315a46729b00285218426c0a3c67073964063965083b670438
+670236650339690a4070002e60001e53214f863d68a04972aa325790001f5b1537734b73af547c
+b84872ae2c56921e4b852c5993416fa64f7caf547fb15b83b45b82b05e80af6989b76f8cb85873
+9f36517d00011900071f07172f101d3652698a50668941597e2d486e25416b2544722140721737
+6c01225a1e42791f427b2f528b5374ad5576af4968a038578f001c5c001b5e00377b295fa7376d
+bb2c60b32152a71d4ba30a368e09348a093085072c7d05287305276e0a2b711231750b2e610020
+530427592043751e447500225300214f1a4371143f6b05305c00214a1e4c7544749d5282ab5383
+ac24547d6ea1cc4578a384b7e23366914e80ab1d4f7aa2d2fd0535600000270027532954800d38
+644d77a100214b0026500b355f0a3c670436610538640d406c093e6a0236650339690f45750033
+63063768001d500011444771a78bb1e8496da412366d2748813d5e975275ae476aa32349801e44
+7b335a8e3e65985075a86083b5698bba6482b25f7caa677fae6f86b57087b63041620817380001
+220002245c71914b5f813b5174334d722f4972274470294777314f830014493b5d9245669e4f70
+a86787bc6787bc728fc57390c64777b211407d00165500266a23539a3463ae2a58a6244f9f123b
+8b0c338200267200196100145a001a5c02236207296600174a001b4e001b4c0025560b31620228
+59062f5d27507e002450022d59022e5700264f000e37001d4633618a5a88b14979a25c8cb52b5b
+849dcdf623537c75a5ce5886af44729b001942133f680c3660406a94143c66001a442149730d35
+5f063a6201355d043a640f456f0d456f033a66013a680942700034620f43720d3e6f002a5b001a
+4d355d918ab1e5739ace364e833e568b536da25b78ac4a699b4364965273a55d7eb06e8fc17595
+c47492c26884b45972a3586e9f6376a86c7fb16978a00f1b4400002119214a7587a55b6c8d4557
+793e54773a5178334c773d57864f6a9d00184c4a689c3d5b8f39578b5370a35572a56883b66782
+b581abe16891c9234e88001957002b6b2952973b64aa3f67af4268b0365ca323488d1337780e31
+7012377215387111356c6285b87295c8406697002455001e4f092f600c3563133c6a103b670833
+5f07335c06325b002a53002e5708365f012f5846729a638fb75a86ae48749c6a96be3a668e0029
+5194bfe700264e3760881f4870285179001640062e58072f59123a6405396102365e0339610c42
+6a0d456f09416b023c67023c6709406c093e6a002f5e1b4c7b002e5e000a3a2850815a82b38094
+c4768aba687fae637baa6983b26c8bb96f8fbe7292c17898c76e8cbc6785b56a86b66d86b76a81
+b26277ab5c71a57c89b66b76a36f78a57c82b07d8eaa6d7d9b596a8b4a5e8044597f425b844861
+8d4d66971e396c6e8bbe4c699c405d905f7bab5d79a96a84b35b75a4496fa07297ca6b8fc4476a
+a3476ca7597cbb5c80c15f83c46a8cce688acc6184c35a7fba597cb54f73a8365b8e1d4374072c
+5f2d5285184071001e4f083061173f700b34620a3361123c680e386415416a0c3861002b54022e
+5700224b000e37001137001a405884aa4d799f6793b9346086345d844b749b3359824e749d193f
+6800143d0c325c153b65001d47092f59083c64063a620238600238600841680e476e06406a0036
+6000355f1a507a002f5b00224f14437008356200124000113f778bb597abd5899fca6c84af758e
+ba7c99c56e8dbb6686b47598c56787b55d7dac6282b16481b45673a6455f94395388747ead7880
+af686d9d3d4171717d9a747f9e687596516284495a7e4a5f86435984344b7a1a316288a1d2748d
+be5e77a8657dac536b9a677eab647ba86686b56d8dbc5473a54462965474a95674ae4967a34f6d
+a94464a05070ac5f80b96a8cc16a8dc05174a61b42700013411d4477264d800f37680830611e46
+770e3667002755194270123c6809335f0d3962002a5300275014406916426b0b3760002145062e
+52001034042c50001e45062d542a5178062d540127500a3059001a441e446e062b580328551237
+640b305d0c3f670b3e6602365e003058053b631049700b446b00345b104872002953194c771545
+70002753022d590028540e386413284f788db496acd6758fb87894be7e9ec86b8cb75f82ad6e93
+c0658ab76387b6668ab96283b55273a54d6b9f506ea27580ad2e37640f15432b305e3f4a676973
+928892b4717fa24c5c80495b83526690495e8b1e3564455d8c93abda90a8d76e85b26b82af5d73
+9e667ca76e8bb95b78a6435f8f345080334e813852873c568c3d578d48649a3c588e5c7aae6483
+b5355786143665072c592f54815e87b90a33650025551c46760f3969002a5a0e3765123b690c36
+620b356109335d042e58012b55032d570c3660133d6710355a082d52072c510f34591439601338
+5f1438611a3e671f456f193f69193e6b1d426f1a3e6d0e3261072b5a092d5c0535600939640638
+6301335e01345f063c660a406a093f69053b630b3f670b3e6608365f08345d0e3862143c66143c
+66122a4f1e385d738eb46f8eb46d8eb650749d5b81ab4a729c527ca84a74a2507aaa4973a3365d
+905279ac799dd2678bc0242f56020a320000210c11393b4564333c5e414b6e6371957d8cb37789
+b36376a2556a97526998344c7b6b84b0637ca86e86b14f67925d739d7086b0728db96984b05a74
+a34a62913d5485374e7f384e823a50843750835f78ab718dbd5b77a75776a4001846082b564265
+90315a8c012a5c012b5b143e6e07316107316117406e1039670d37630c36620a345e06305a032d
+57052f590d355f123a64153a5f0e3358092e53072c5301254e00214a0326510d305b173c691136
+6305295800225106295b1033650d30620023550835620c396609386503325f00305d0336620538
+63033661033661093b660c3c6509355e052f59072f59072d570329531029500c274d2b47707798
+c052749d5379a2426a94325c88244e7c4e7ba83763932f5b8b5881b35982b45279ad638abe0914
+39000227070f3410153b2f385a3840642f385d2a375e4150785465915568955267945a71a05c74
+a3849dc96e87b35d75a0506893596f995f759f6782ae6c87b36e87b3657ca9566d9c4e65945167
+98586e9f566c9d748abb6e86b56a84b35976a2001b460728531839640530620027590935650c38
+680029590c36661a44720832600c36620c36620d355f0a325c072f59072f590c325c0f355f1335
+5d13355d13355d0d2f5800224d001843001b480025521337661b3f6e0f35660021520021540d32
+650c3065001e53042e5e093363093565043060012f5f04356408396607386500315e0a39660f3c
+680d376309315b072d57032651001f4a16305900133c00153f82a4cd5679a45880aa3b65910f39
+67123e6e063262123d6f315c8e2a5286375f93638abe5077ab727c9f0f173b00002415193d272f
+533d456a353d651c28511b29542c3c6a4f6191778bbb273e6d455d8c526b977a93bf475f8a667e
+a95a709a6f85af5e78a76882b1738bba738ab96d81b16a7eae7183b3798bbb7a8cbc687aaa6c80
+b08aa1d0253d6c122c5b0c295700154300295b032e60113d6d0e3a6a022c5c0c3666143e6c022c
+5a0a34600a34600b335d09315b072f59062e58082e58082e58082a5310325b193b641b3c671134
+61062956002251002052001c4f0e316414386d05295e001d54002057002159001c54001c510024
+5901285c002458002355002759002b5b002b5b002b5b0933630d36640d325f0a2d5a0a2a580727
+5201214c18315c00083300103c82a2cd7090be5a7fac466d9b0012432d5787133d6d0e35682f56
+8914386d082c615173a86587bca5afd231395d00001a0000223b44691d254d1a244d34426d303f
+6b0a1c4c192c5e546a9b6077a8344d7e193362718bba5c75a1617aa6566e99819ac36480b06884
+b46d86b76f86b76d83b47081b37483b47786b77988b95f6e9f8899cb697cae00134412295a0d26
+571a36660c396b0a37690f3d6d103e6e0c38680a36660c3664052f5d06305c052f5b062e58052d
+57072d57062c56042a540228520326510a2d5811345f163966153968103463052b5c002255001a
+4f002055042a61092e67042a6500235e00225d002661001c5405265e092d6405296000265a0027
+5b022b5d022b5d02295c092e610b2e600628570424530624540825530522501127580010410013
+447f98c9617dad617faf45649600002f7598cb385b8e4c6ca17696cb0a275d000036506aa0526c
+a25e678c6a72973e4369090c323b436b1b234c1c25512b38651a2856051747142759273d6e8399
+cd5972a550699a6680af748db9536c986880ab657ea76886ba6784b86782b56b81b56d83b47384
+b67584b57584b58392c37483b496a7d90d205210255910265a041c512a4479123f710d3a6c0b39
+69103e6e133f6f0b37670832600b3563042e5a012b57012953012953042a54042a540329530127
+51092c570a2d58082b58062956072b5a0b2e60062b5e0024590a3067001f58001853002360052c
+6a002664001c5a00195700094600165304225c03215b00205903245d062a61072b600e31641232
+661130620825580521510922530d25540c245310205615255b04164c8397cd445a8f6f87bc354f
+850002383e5b8f93b0e4617bb15c73aa556aa100003400033b4a5b93525a838b91bb7579a34446
+70252f58212a562e39661c2a580716473b4e806c81b552689c374f844e689d617caf4e6a9a6a84
+b36580ac88a1cc4f68936181b6627fb56380b4677fb46a80b46e81b57182b47382b4808cbf818d
+c08d9bd00000321d2f6512265c0d22590c235a0636670d3d6e0e3c6c0a38680f3b6b083464032d
+5b06305e042e5a022956012751012751042a54052b55062954052853072c590b305d092d5c0226
+5500245504295c062d61032960072e66062c67042c68072e6c083071072f70002767001c5c0013
+5207205f0e29660a2562001d59001b57001d56001d5507275c0c295f0b285c051f54031c4f091f
+530d23540c22530d164f19225b1f29628592ca4f5e967283bb273a7400064011265d889cd35e6f
+a74c5b9347548c000035000035161f587074a4767aaa6264945857883d477018214d212c59212f
+5d1322534d60927b90c44e6498496196536da2435e915773a3718bba85a0cc8ca5d04e67925b7d
+b25f7fb4617fb3617bb05f75a95e71a55f70a26170a2546093727eb18a98cd16265b001248071b
+5123386f001249002b5c124273144272053363063262043060002755002654052f5b0229560026
+50002650042a54072d57092c57072a550025520d325f1539680e3261062c5d092e610a3165092f
+660a31693058934a74b0456eac3a65a53e69a9406aac3a64a6546baa5c73b25973b046619e2c4a
+861c3a7610316a0a2b63000f4400134900164a00104500114400154906194b05184a0309450208
+4438407c7882bd707cb76270ab1c2d67000037091a5293a2da5c69a1333d76363f780007400003
+3d00023c676a9d6e71a46c6da05a598c2a385b28365924345824345824355b24345c20325c1e2f
+5b3447742d3f6f2d4072182e5f54699d6f84b86379ae5a70a54960a95d74bd546ab2435b9e526a
+ab4f69a64b639e4e689e4e669b4962957a91c2132b5a0019450c25512b426f0a214e1c34531e37
+581c365b16325c133362103169012663001658002167002a7100216b00155e00195f001d620023
+6600307303337e0d3d8800216a001d611a54963876b33777b14586be2968a1134f8a033a78083a
+7d1a468c244b962347941d418e093494083393264faf4f77d75076d52a4ead10328f10328f2d50
+ab2e52ab355cb2315ab01a469a113e9219499c2050a310358a0125781a3d8d4d70bb5072b82848
+8a20407c405d95102c625f7cb06e89bc546fa2435b90041c51000030152c633448785668986372
+a34e5b8c2d3b5f28365a202f561e2d541e2f5521315920325c20315d1629560a1c4c1326581326
+581d3266556a9e6076aa5d73a77890d7566eb53c5398374f92334b8c425c99374f8a3f598f344c
+816c85b88299ca3f57860d2652001844051c491f3663142d4e1d385a203b6114315d09285a0627
+6004296700276c001a62001d6700196300226b03357b0a3c8213458a285b9e194893001b66002f
+783264a93c71b4457ebc538fca4c89c2407bb4346ca7194e8c002f7300266c0d327d1e408d2345
+92153f9d123c9a002887001c7b183d99496bc84b6dc82b4da8000b653d60b75b80d5375eb3204a
+9c134091033182002e7f1a3e911235862b4d9a5879c25779bc2c4a8a112f6b19366e0521575774
+a8718cbf5873a6496196263e73142b62344b822f43734153835665966370a12f3c6328355c202c
+551b27501a29511f2e5622315c24335e253662122250192b5b1d2f5f0316484f62946d83b47288
+b97790d3354e91354f8f5e78b84b64a35f7ab429427b132d62526b9e5c75a65c74a3627aa90012
+3f0118450f26530017440e284d1631571a3660112f5f08285d04266301266900276d001e680021
+6c00297414448f3162ab3263ac2e60a63b6db2163f89163f893763aa4774b82f5fa02c609c2b61
+9b094078285d9630629d305f9c19438500195e00044d0017631a37832e56af19419a072d86001e
+77000c63000d6418378d4b6ac03d5db000196c001e6f3459aa4d74c34c76c4315dab002b790525
+72001662001a630e2f75123274021f5d00124c00174d000c402b487b637eb1738ec16179ae2f47
+7c11285f1b32692a3e6e2638683847785c68992f3b6429355e222e591e2a551d2c542130582332
+5d24335e2938641928541b2c580d1e4a162956506390687daa7085b2516ca9122d6a2e49867a95
+d2637eb8809cd2253f7500063b748dc05e77a8364e7d5f77a62b426f40578439507d00113e0c28
+520b28540b29590b2b600b2d69072b6c002268001963012b770e3a881b49973161ae4777c23c6d
+b61e509610428700044b2e549b4d76bb446eb04e7aba4c7bb84274af5184bd396aa32a58932c58
+95375d9e193c7f00084e00004500165e0015681f43964062b52f4fa2072577000b5d0005560004
+553c58a63b57a5001c680000470c2f7a3257a23d65ad5b83cb536fb7415da52d49901e3c7e1532
+700e2a640c27600d295f00194d021f523f5a8d809bce6f87bc253d720219500e255c2337671426
+56182758303c6d2f38642c356129325f29325f28345f28345f25335e23315c1f2d581e2c572434
+5c02123a5c6e966678a05b7097566b925878ad25457a28457b5c79af4663976f8cc0274176000c
+3f294273768fc0536b9a5971a08198c7586f9e20356211265308285706275905275c0227620023
+6400216600226c0024721641912b58a9305fae2b5cab3363b024549f002d760011572346894669
+ac5076b7597fc0618ac84672ae416ea86d9bd26b99d0446fa92e56923c619f4466a82b498b011c
+6000014512327e000753000f5b34519d4b66b01b347e000c5700105b0000480b226b4a64ab415d
+a400135900074d082b6e06296c223a7d263e81233b7c16306d08235d001b5400154b000f440823
+56000232001c4c375383324b7e0a2356031b50142c61142754122250111f4d101c4b2e37642d36
+632e3764303966313a662f386428345f2430592431582a375e35456910204493a4c87a8baf4b5d
+7f2e40627797c56787b54565945979a84a6898516f9f2641740823560006376079aaa2b9ea94ab
+dc8197c8283e6f051949051949012358062a61082d6800256600185e00196304307e1d4a9b2f5c
+b03a67bc2c5caf194a991646930d3d88002a730020677ca1df5c81bf547cb84a72ae2d55902f5a
+94325d95123e7438649a4069a1426aa5456ba64f73b04d6fac294787001a5a000d51021f630019
+5d00064b061e61334b8e364b8f14296d051b5c081e5f0016571028691f3979000e4e0000360325
+6200003d000e4c041a55041b54021950061e53052053031e51011d4d000c3c000c3c0015450014
+4700194c051d5200184d051845132351192755101c4b303565303565313765343a68353c68323a
+632b355e2631582a355a2531543140611d2d4b8a9ab87f8fad4d5e7a22334f55779c82a3cb6282
+ac7e9ec8819eca3d5a88132f5f0b2757112a5d27407398aee29db3e7465c9010265a192f60061c
+4d00215e002260002667002a70002a760530801a469a315eb33563bb2a58b015449909398a0635
+84002d780b38822c5aa15984be4974ae416ca62d589229548c5886bd6694ca2e5c9209376d204c
+823b669e4c77af4f77b2446ca7375d982d538e000032000a470f27641f3472132664021553091b
+571c2e6a02145000114d071b56071b56041a551c346f18336c00073f0c1d550d1e56081c520014
+4a00124600164a011a4b001b4b072452122f5d102c5c042050041d4e0b2455081e520011450819
+4513224e19265316214e323866313765313864323965333b64323a622e375c2a34573e486a2a35
+543743603a47618390a9a0adc68492a959677e1436546c8ead5c7ca08dacd2a2bee726416d0016
+44021e4e233b7000053a1830652a427710285d11295e0d2659152e6100216600155b00155d012e
+791d4a9a2a57ab2a58b02a58b12656af0b3c9300277c002e7f002d7d001f6a133e885480c75283
+ba5788bf3a69a02c5b924777ac4878ad3c6ea35183b84676ab17477c0f41763f71a65887be4170
+a73b69a05280b7041e54000d44000a41061a5115265e11225a10205614245a2030660c1c52000d
+4302144a071b51000e43000b40041e530c1a4f09174c03134801144803194a051c4d001a490016
+44001c4a082553062252021e4e00194a000e3f000b3c001748132450101f4b0e1b480f1a473036
+603c426c2e355d2c335b2d355a2d3559353e60212c49414c6749556e4a576e8592a7adbbceaab8
+cbb2c1d19dacbc18384f3e5d777696b48daccc647fa528416c122c5b1d3669072157112b610d26
+5f09225b132c65132c65062258042056002670002a75103e8c2a57a8305db22351aa1d4ca72554
+af1645a00028810019710b378b002b7900125c5881c94c76bc4078ac356da13d74a8558cc0265d
+91386fa33c74a8336b9f447baf336a9e467eb25f97cb4e88bc3a74a82d6599164e825c75a60219
+4a000435132658000b3d233466213062000e400006380817491323580e1e5303164a01164a071d
+510a2356101c4f0e1a4d0a194b03164800164700194a031f4f0523530927570725550523530420
+50021c4b0119480016450014430b1a460c19460e1946111a473b43673941652b34563740623940
+602f3755464d684d546e8d95ad8c95aa7b849899a3b4b1bccbb3bfccc2ced9b4c0cb7a96a80823
+38223e567f9cb86882a7354e772f47761f376c162f681a326d0b2562041f5c112c6915306d0b29
+630927610838851342911c4c9d2150a52250a91c4ba81343a20b3c990015700230891e49a1143e
+92001f6d00276f658bd2537abf2d6d9d3a7aaa316f9f2765951a5488548ec25892c73771a61650
+851a54891e5b8e205f922b6d9d3e80b02f71a10547774b6392172f5e000b3a000636081a4a000e
+3f00093a13205113205116235411205207184a0013450016470017480015460f1b4e0c1b4d0a1b
+4d051b4c031c4f0520530724570a295b09285a072658052353031f4f021c4b0219480217440117
+420a19450b18450d18450f18453d45632f3755212a453b445f434a643e465e71778d9ea5b9c0c8
+d9bec7d6a6afbda6b0bbaeb7c1b4bec5c4cfd4bac5ca96aebb4f66750d23392f4661758bae5c72
+9c22386920376e203873253e7d152f6f00195c00195b0020620c2f6e1f42811141941d4ca11b4c
+a30f3f980c3b960e3e9d053496002382012d8b0c379120499f00227400135f2549906f91d75a7d
+c03679a73679a72b6b9b3d7caf4783b84985ba245f97124d85235e960f4a821654894384b8589b
+cd367cab1e6794317aa756719d041f4b00184400154202174400002b0e1e4c0919471221520d1c
+4d041547011446091f501027580a235400194a0d1b500b1b500a1d510a20540923580a285c0b2b
+5f0b2e6109295d06265a04235503204e041d49051a47061945061a440918430a18430c18430f18
+443843583c475c424e616571846d778867718298a1b0c3ccdabcc5d0c3ccd6bcc4cbb1b9bfb0b7
+bbb7bec2bdc4c6b4bbbda9bbc7576876233448364a637385a79aaed86578ac00114a000746021b
+5e09266a12317726478d2f51972c51942e569811429914449d0d3f99033491013190043493002e
+900024832e58b60a348e0d3489000e5f00145f3d5ea46282c45b7cbb4285b33a7dab3575a55b9a
+cd6ba7dc2b669e001f5900245e0038713570a94c8ac14687bb4a8dbf3c82b120699617628f5775
+9f05214b00133e0a224d03194400113c1f325f000d3a041646031545001345071a4c13285c1c32
+66142d600520530b1d53091d53091f540923580a275d092b60082c63062c6305295e04275a0423
+55021f4d031c48051b46091b450a1c440a19440b19440d1944101945505c6975818e919da8b0bc
+c7adb7c299a3aea8b1bbacb6bdb2bac0bcc5c9c5ccceb8bfc1b5bbbbbdc3c3bbc2c0b7bebcbdc9
+d484909d4f5b6e2b38521523473544708191c7b6caff6e86c75b75bc35539b1f428b2b509b2950
+9b113a82002c731547a0093b95003390023593033294002c8e002d8f0a359519429e0129820d33
+8500156501216a5673b75f7cba5b76b33a7aaa4886b6417baf467db35c91ca275c960029650032
+6e0029653c71ad4e86c0306ea52f70a43376a82066950f578637578133517b000933000e39061d
+4a031a47001141071b4b071a4c091c4e071c50051a4e081e530c24590a2459021f530a21580620
+56031e5703225a05265f04296202296100265e01275e01255a01225403204e051d48071b450b1b
+430b1c420d1c440f1b44121c45141c457d8b91a6b4bab7c5cac1cfd4b9c5caabb7bcb4bfc3a7b3
+b4b6c1c0b7bfbfc5cccab7bebcb2b6b5bcc0bfb7bcb9c2c7c4b7c0caa0a8b64a5165262f4a5059
+7e44517e35457b697bbb8aa1e6849de76281cd3d61ae3057a62955a32857a23161ac184aa3093b
+95003390033694002f91002587002b8d113c9c08318d012780002073000e5b18347c849de07892
+cf556da83f78a93a73a4346b9f3c70a65a8ac5255191083274204a8c133e801d4d8e205392225a
+9428669b26689a236796296f9e31537c3a5a84001b47112c5800113d0008370013440d2354081d
+510d2256091f5400154a000f4600174d07225b0c29610a255f05215b001d59001e5a0023600025
+6200246000225d00235b00235700215303204e061e49071c430a1b410a1a3e0e1d45101c45131d
+46151d469eaeaeb6c6c6b6c4c4b6c4c4afbcbbabb8b7bdc8c7b5c0bfbec7c5b3bab8c3c8c5b6bb
+b8b1b5b2b9bdbab1b5b0c7cbc6c4c9d19da3af767c8e454c6620284c313b6a3c498118296b4d63
+ab6e88d57f9fec7298e75a85d53b68b82353a020529f1b4fa9184ba81245a3093c9a013092002d
+8f0c37991a43a30b328e0529800016680a29753f59a096aeef7d95d0536aa34b7eb03264992c5b
+9233609a5881bf274c8f10327817397f0024691d468b2e599b194b87134a822e6a9f2d6c9f0648
+783457821d3e690f2e5c3e5b89142e5d0000300c225601174b00154a0b21560f265d081f560018
+51021d560d296313316b0c276403215d001a58001b5800215f00256300246200225e001d58001f
+5600205202214f062049071c4208183c0816390d1c44101c45121c45141c45a8b9b7b9cac8bac8
+c7c4d2d1bfcdcaaebcb9b4bfbda8b3b1c2ccc8b1b8b5c6ccc6bec4bebabeb9bec2bdb0b4afcace
+c9b0b3bbb5b9c5737789383d57434b6f444e7d3340783f5092293f882d49972f50a04066b75f8c
+dd6997e85384d34175c32559b33164c12d60be1649a70b3a9c1643a5244fb12a53b3001d790428
+7f1434865474bd6984c87b94d35d76af546ba24777aa4575aa305e95022d672e55933c5fa22c4d
+9300195f183a80163d82446eb06594d14176af195388104d800e4e7e1b416b1a3d680525533756
+845f7caa000d3d00053800154800154a0f275c1c366c1b356b112c650c29610a28620829620a27
+6501205e001958001a58001f60002566002764002561001b55001d5400205202214f062049071c
+4207183a0514350c1b430e1a43111b44131b44bcc9c8b9c6c5b9c6c5bbc8c7bdcac9bbc8c7b3c0
+bfacb9b8b7c4c3bac7c6bac7c6b5c2c1adbab9abb8b7b1bebdb7c4c3b8c8bfa5b3afa3b1b13342
+4c445166424f7046547f384778364a80344b82304d812d4e802e5380355e86416d934a789b6186
+bf5277b26488c56b8ecd5678ba5678ba4665a90a296d405fa33251954260a23d5b9d6e8ccc7594
+d26787c36283bc173f73123a6e022c620028601d4a844572af4574b32b5c9b043677002d6e0029
+68002e6b073570103e7924518b36649b2b5a8713406d00194a0015472b487c2e487d00174d001b
+512444781d3e700222511c396500063123315c12184221234c162a6000144b192d670b23600a22
+6311296e0012590f2b73011d64001b5e031e5b082258051e4f00184300173e041c410b1a4b0d1a
+4b0e1a4b0f184abdcac9bac7c6b8c5c4bac7c6bdcac9bbc8c7b3c0bfadbab9b4c1c0b8c5c4b9c6
+c5b5c2c1afbcbbacb9b8afbcbbb4c1c0b7c7beafbdb9a1afaf55646e364358475475414f7a3f4e
+7f34487e364d843855893657892e5380254e761e4a701b496c0e336c1439724c71ac799dda7194
+d36d8fd16887cb4665a96685c94766aa2b498b0826664665a35373af30518a193a73001a4e0026
+5a0d396f2452893d6ba54b7ab74b7cbb4275b4194d8d013575002261002a6611417c2757923967
+a14372a913426f15426f001a4b000e400e2b5f132d62142e642b477d0624580c2c5b1c3b690007
+31495d87313d662e335b16173d071a4e091b510d2158122863000b4a132b6e0c246900084f001b
+5f001a5a031d5a072157041d4e00184300173e041c410d1c4d0f1c4d101c4d121b4dbecbcabbc8
+c7b8c5c4bac7c6bcc9c8bbc8c7b4c1c0aebbbab0bdbcb5c2c1b8c5c4b7c4c3b1bebdadbab9adba
+b9afbcbbb6c6bdb7c5c1a5b3b3838f9a2c374c4853723c4b73465684314478374d823e598c4060
+8f395c892b517a1d466d144064183c73062a61193c752c4e8a1f417e2c4d8c5977b96f8dcf6987
+c95e7cbe3452920423615474b06b8cc53c5d9520417900255a07376c26578e4174ad4277b1356a
+a63269a73972b0346fae1a5594023b79003570043a740a41790d43790d43791642722b55850020
+53001044001a4f00184d243c713751861d3a6d0a29570c2a54000b31c6dafdeaf6ff9195b81415
+360007351120510213450b1f551b2f6900124f0019581b3575001858001756021a55071f54061e
+4d001742001640041b420e1b4c0e1b4c0f1b4c10194bc0cdccbcc9c8b8c5c4b9c6c5bbc8c7bac7
+c6b5c2c1b0bdbcadbab9b2bfbeb7c4c3b8c5c4b4c1c0afbcbbacb9b8abb8b7b5c5bcb6c4c0aebc
+bca1adb83540553c47663a497147578536497b384e823d56893e5c8c3c5c8a365a832e557c2852
+762043760e31640d2f64092a6200164f001a561938762b4a880c2b692c4b891e3e7a00144d4c6d
+a5698bc03f62952f5285245b8f2b6296346ba1366fa728639c17538e165491205f9c2c6ba92867
+a51f5d9a104c8700387100265e001e54001d531e497b345b8e001b4f00164a071f540014492137
+6b152e5f122f5d22406a032046718caee6f8ffdfeaffdce0fa393952a1b0d7000b3300032e0619
+461c2f63081c53243872000846001653001550031a51081e53061d4c00174200153f031a410a17
+480a17480b17480c1547c2cfcebdcac9b8c5c4b8c5c4bac7c6bac7c6b7c4c3b2bfbeabb8b7b0bd
+bcb6c3c2b9c6c5b6c3c2b1bebdacb9b8a9b6b5b7c4bcb1bdb9bbc7c8acb9c2535f722c38553c49
+7042517d3d4f7f3b51823c53843a578537578233557e2b5077254d7117386a17386a18386c1333
+680d2c6413316b12306c03215d1f3d79405e9a33518b0928606181b680a0d45f80b2597aac3d7a
+ad3874a928669d18558e14538d1b5b951e609c195d990b4f8b1658941e5e981c5b9514518a0d48
+800a44790943771c44782b4f8400184c011b500a2054000f43172d5e0017460c2851203e620009
+29dbf3ffa0b0c8071025d4d6e83b394aecf8ff2e395819264719294d1a29541d2d5b021247192a
+6202164d00154c041a4f0a1f53091c4e01164300133f0418420a18460b17460d17460e1645c4d1
+d0becbcab8c5c4b7c4c3b9c6c5bac7c6b8c5c4b4c1c0acb9b8b0bdbcb5c2c1b9c6c5b8c5c4b4c1
+c0aebbbaaab7b6b6c3bbadb9b5bdc9cab1bec776829526334d3945683a4971374775374b7b3b51
+823d57863d5a863656802b4d7522476c2747752848761b3b6a0d2c5e133165223f751d3a720c29
+615170a84261991b3b700014484c6d9f7092c15b7eab597ca9407db03672a722609715528b1c5b
+952b6ba5296ba7195d9910549010528e11518b15548d2260972e689d2c6498235c8d254c802b4d
+82112e62172f640a1f5300083a0b1f4f041a45233d620c27480c2742e5fbff2a384b474e5ea9a8
+b56f6b77e2eeff00091e6f7b94cfddfa000528000e350a194529386907184a05184c091c4e0d20
+520b1d4d02154200123e0216400e1c4a0f1b4a111b4a121a49c6d3d2bfcccbb8c5c4b6c3c2b8c5
+c4bac7c6b9c6c5b6c3c2aebbbab1bebdb5c2c1b9c6c5b9c6c5b6c3c2b0bdbcacb9b8b5c2bab1be
+b7b4c1c0bcc7ce939dae313d56323c5e37446b34436f324572374b7b3c55813e5a843a59812f51
+76274b6e1d3d6823436e1f3e6c1b3969213e711c396d0e2a6009255b6986bc37548a102e62001a
+4c4b6d9c6b8ebb6285b06487b24078ac336b9f27619627629a2c69a22b68a121609a1a5993205f
+991f5b9618538c134c84184f852054891d5082124676254a7d19396d1b3669273d71192c5e0315
+45041744061a44122a4d072140567088e6fcff000413e5ecf674747bdbd8dec8d4e108132294a0
+b1edf7ff1f2a4727315338436a08143f0d1a470c1a480f1f4d1323510e1f4b05164200123c0214
+3e101d4a121d4a141d4a161c4ac7d4d3c0cdccb8c5c4b5c2c1b8c5c4bac7c6b9c6c5b7c4c3b0bd
+bcb2bfbeb5c2c1b8c5c4bac7c6b7c4c3b2bfbeadbab9b5c2bab8c5beaab7b6c4d0d5a0acb93d4a
+5f2a36533543663d4c74374973334672314974324b762f4b7429486e24446825416b213d671532
+5e1633611c38681530631d376c3a54895a77ab244276143365143463577aa7698cb76589b26d91
+ba3e70a52d5f942a5e943b6ea73a6fa9255b951d538d255b95174d87245993285b941c4e830e3e
+710d3a6c103c6c0f3c690f3062000f41072051243a6b2c3b6c1e2c5a05164201163d142d4e001a
+36365067d8eeff414f5cebf3fa4e4f54dfdde07d889100000bbecad7a6b0c1000012565f7aedf6
+ff232c51131e45111d4613214c17255012214908173f02123a04143c0e1b48101b48121b481319
+47c7d4d3c1cecdbac7c6b7c4c3b9c6c5bbc8c7bbc8c7bac7c6b2bfbeb6c3c2bac7c6bbc8c7b8c5
+c4b4c1c0b1bebdb1bebdadbab2bcc9c2b4c2bfb7c2c6adb7c2626e812c38513f4d6b49577b3e4e
+763a4c763b517b3750792e496f26446828466a2d47701d37601a3660132e5a16305f1831621e37
+6a4d6699546fa21835681c3c6b0f2f5d30517c7395be6a8fb67297be5a82b6537baf446ea4325b
+931f4a840f3c7607346e04316b0e3c73103b73123c72143d6f11396a0d3160032653001e490425
+500017420014400c214e1e2d5915224f000d3800012739537235506b102b40e5feff24353f1a24
+2b818289fffdffa3aeb51b262fdce6f15b6473000519636b83e9f2ff030a2a2f385a3840641019
+3e0e193e0b193d010f331222460c1c40111c490e19460d16430e1442c8d5d4c2cfcebbc8c7b8c5
+c4b9c6c5bbc8c7bcc9c8bbc8c7b5c2c1b6c3c2b8c5c4bac7c6bac7c6b8c5c4b5c2c1b2bfbeb2bf
+b7bdcac3b4c2bfb8c3c7b9c4cd7a86973c49603c48655360814a5a7e495a804d5f874a5f863e55
+7c344e73334d72374e75273d67243c671c33601e35641f36652138694c6596617dad2642722847
+7511315f22436e6d8fb8769bc2799ec3597aac3d5e9024477a1d3f7414386f052b62062c631238
+6f11356a1032670d2d610b2b5a07265405204c00194400153e001b41001c420a204a11234d0d1c
+44011038000d35001437253f5e17324d001127ddf7ffd6e9f757636e1b202a8b8c94d6e3ecc8d4
+dfecf8ff2b3443040c1dd7ddf3b4bad2000013868da8ccd1f11b2242141e3d061130141f3e1a28
+46051331141f4c111c490f18450e1442c8d5d4c3d0cfbcc9c8b8c5c4b9c6c5bac7c6bbc8c7bbc8
+c7b8c5c4b6c3c2b5c2c1b8c5c4bcc9c8bdcac9b9c6c5b4c1c0b1beb6bac7c0afbdb9b4c0c1c0cb
+d2939ead4e596e313c57525d7c4d5b7e4f5f8356678d56698f4c618741597e3e567b3c51782d41
+6b293f6a2035622236662236662137684960916d86b7344d7e39568419386610315c6183ac84a6
+ce7da0c5496595233f6f0a275a102d60102e6202225606265a1b396d1a376a1531610d27560921
+4c061c46081a4207183e05163a001939011c3d0b21440d1e42051337000c3005143b1024471732
+531936520220387792a7e4faff728191000615151b29253543667684effcffe3edfe0d162ac9d0
+e46c7187000012bfc5ddbabfd9000014454f68b5c1da111d361b284105122b121e49121b471219
+45101642c6d3d2c2cfcebcc9c8b8c5c4b6c3c2b7c4c3b9c6c5bac7c6b9c6c5b4c1c0b1bebdb5c2
+c1bcc9c8becbcabac7c6b4c1c0adbab2b7c4bdb0bebab3bfc0c1ccd3a2aebb5c687b2c39504551
+6e4451724856794d5d815162884f6086475a8043567c3e507831436d31426e263664283a6a273b
+6b23396a475d8e6a81b23b548546639122416f02234e4b6d967b9dc5678aaf324d791f3a661330
+5e1a37651836660d2b5b0b29591733631c3665162f5a0d264f0a1f45091d400b1c3e0d1c3d0e1c
+3a031f37011a350216330515330a17380b193c0e1e421024471c375919395725466112304a4c63
+7c3848601f2941060f240213271c2d41263549bac7dc232e43f3f9ff585d73000013ebf0ffa6ac
+c000000f6d7488d7e0f40000120e1a2b0a162708143f0d1642121945141a46c4d1d0c1cecdbcc9
+c8b7c4c3b4c1c0b4c1c0b6c3c2b8c5c4b9c6c5b3c0bfafbcbbb1bebdb8c5c4bcc9c8b9c6c5b4c1
+c0afbbb1bac5bdb8c5beb8c3c2bdc8cda8b2bd6c7687374257444f6a444f6e4451724452754555
+7947577b43547a3f50763e4d7834436e3544702b39672e3d6e304173293c70485b8f6075a94258
+8c4f68992c49770019442a4c755678a03b5d8527436c2e4a732e4c7626446e1c3c671838631734
+60122f5b0e2a540a254b071f42061b3b071b380a1b370b1a340c1932031f31021b3001152d0414
+2c0915320d1a3b0b1d3f071d401934590122432346670c2e4d011d3c001030152341212c4b1b30
+4900102903173000011b626e87e2eaffdde3f91f2539f2f5ff55596b0e1323bec6d4f3fcff0001
+0f838f9adeeaf5000730070f381319431a1e48c4d1d0c2cfcebecbcab8c5c4b3c0bfb2bfbeb5c2
+c1b9c6c5b9c6c5b4c1c0b0bdbcb1bebdb5c2c1b8c5c4b7c4c3b5c2c1abb7adb1bcb4b4c1bab3be
+bdb1bcc1a3aeb775808f445063525e77525e7b4e5b7c48567946567a48587c43547a3d4e743b49
+7434426d34436f2a38662e3d6e314274283b6f4255895a6fa34b6195526b9c324f7d001a451032
+5b34567e1d3f6729486e39587e3a5b832748701a3b631b3c641a3b6314335b07244a052143041e
+3d061d38081d360b1e340c1d310d1c2f011a2709202f0e203208172b020f29041230081b3b0820
+4308264a092c510f3459113459163359081f46000e341b2a51061f40162d4e0e23430113310002
+1f2a344da0a9bea8aec2f4f8ff393f4d00020eedf4fe9ca6ad0000066c787de6f2f700042d070f
+38141a441d214bc6d3d2c5d2d1c1cecdbbc8c7b5c2c1b4c1c0b7c4c3bcc9c8bbc8c7b8c5c4b5c2
+c1b3c0bfb3c0bfb5c2c1b7c4c3b9c6c5b1bdb3adb8b0afbcb5b3bebcafbabea7b1b887909e5c66
+775e6880616c87606b8a5a668958668a59678b51608747567d4c578445507d4551803945763e4a
+7d414f8435457b495b915a6ea4576da2536c9f3854840b2a5810305b31537c2a4c752c4e723355
+7934577c2c4f7422456a1c3f64173a5f13355a0b2b4f08274704213d051f37071f360b21340d21
+330f22310822290b222b0b1d290715280c18311925421b2c4d142c4f05244a1b4067082e570228
+5114345f122b57041743081945001036122b5200153b1e30524654720000180000123f4559f6fb
+ffe2e6f2575c66f8fdff151d23161f234c5859263233020c350d153e181e481e224cc9d6d5c8d5
+d4c5d2d1becbcab7c4c3b5c2c1b9c6c5becbcabcc9c8bcc9c8b9c6c5b5c2c1b2bfbeb3c0bfb7c4
+c3bbc8c7c1cdc3b5c0b8b5c2bbbdc8c6bcc7cbb8c2c99ea7b57680915f698166718c6974936773
+9667759969779b606f9654638a67729f616c99606c9b535f905763965a689d4b5b915d6fa55d71
+a75f75aa546da03f5b8b1d3c6a1e3e6941638c496b942c5171274c6c2a5073355b7e3056791d43
+660f35581034570c2f5007294701203a001c32001b30061e2f09202f0c222f172f34091e26000c
+16000e1e1e2b423a47613546671f375a13355a092f58052d570e3660042452000b3a0b1f4f0618
+480b2750000a3311284f162a4d0002201a27412e364e00061a242a385b606aaaafb7dce2e8b8c1
+c5475152effcfb2b38370c163f151d461c224c1d214bc6d8d8c4d6d6c0d2d2bcceceb9cbcbb8ca
+cab7c9c9b8cacab4c6c6b6c8c8b7c9c9b5c7c7b4c6c6b4c6c6b6c8c8b9cbcbbfcdcabac8c5b3c0
+bfb3bfc0bbc8cbc0ccd1b0bbc299a3ae3f4a59565f73656f88565e7c666d8f7e83a96c739b6a71
+99606b985c67945862915862915a66975f6b9c616da0636fa26e7dae5b6b995265915d72995c74
+994e66894e67885b7594385e87315780264d741a416810375e082f5604294e002649001f3f0022
+4302244302214106244208264405223e001a36032036052139000a24000b27234060405e823453
+792a4b7325456f25436d1f3b65142d58061f4800163f00153c01183f001a3f011b40031e400823
+450d2a4a112e4e122e4d122c4b00011e041b360d213a808fa9e9f5ff717991f0f6ff151b33131a
+46141a46171a47191a47c5d7d7c2d4d4bfd1d1bbcdcdb8cacab7c9c9b6c8c8b7c9c9b6c8c8b7c9
+c9b7c9c9b6c8c8b3c5c5b3c5c5b5c7c7b8cacac1cfccbdcbc8b7c4c3b6c2c3bdcacdc2ced3b8c3
+caa7b1bc323d4c414a5e525c75474f6d5057795f648a4d547c515880465380424f7c3f4b7a404c
+7b4451824a57884c5b8d4e5d8f6273a55a6c9c516693566c96647da46d87ac637ea0536e8f4063
+8e395c8731557e284c751f436c143861092b530022470b2d510d2d51092749031f41031e3f0722
+43082241021c3b001b330018330016320b27462a46683350762b4a722949732545702744702440
+6a1c356010295208214a0920470b2249072146041e43021d3f031e400522420724440824430923
+4209213e001732091d360000190d1932878fa7cbd1e90c122a0f1844121945141a46161946c3d5
+d5c1d3d3bdcfcfb9cbcbb6c8c8b5c7c7b5c7c7b5c7c7b7c9c9b8cacab8cacab6c8c8b3c5c5b2c4
+c4b4c6c6b6c8c8bfcccbbecbcab9c6c5b6c2c3bac7cac0ccd1bec9d0b8c3cc384451364051454f
+67434c67474e704d52783e456d474e7637467133426d2e3d692e3c6a2f3e6f34437535457a3646
+7b384b7f445a8b435b8a3e5783516d977490b97693b95f7da14b6a984665933e5e893656812b4b
+761c3c670e2c560221491431571330560e294e051f44051d40061e41061d3e001637001a390012
+330c284a2944692a476d21406820406a22436e2343712746742a477327426e2039641a345d1b34
+5b1c355c102b4d0a2547021f3f001b3b001d3b011f3d04213d06213d0e27421b324b192d452434
+4c000012acb4ccb5bbd10a10260919410b1a420e1a43111b44c2d4d4bfd1d1bcceceb8cacab5c7
+c7b4c6c6b3c5c5b4c6c6b8cacab9cbcbb9cbcbb6c8c8b3c5c5b1c3c3b3c5c5b5c7c7bbc8c7bac7
+c6b7c4c3b4c0c1b4c1c4bac6cbc0cbd2c3ced754606d384253414b6348516c4c53754f547a434a
+724c537b384c763347712c3f6b293c69273b6b283b6d273c70273b71182e6330487d334e81213d
+6d2342704564925d7da85d7da74e6a9a506c9c4f6c9a46639136507f223c6b132c580a234f0b23
+4e0c254e0a234a061d44071c43071c4304173d000f35052347001c421938602f4d771d3d681536
+611a3d6a113663193d6c2143722a4a782c4b792a477327456f29456e2b486e1b3658132e500825
+45011e3e001e3c03213f0724400a2541132c47081f3800122a33435b06132acad2ea7f859b080e
+24061b42091b430c1c440e1d45c1d3d3bfd1d1bbcdcdb7c9c9b4c6c6b3c5c5b3c5c5b3c5c5b8ca
+cab9cbcbb9cbcbb6c8c8b3c5c5b1c3c3b3c5c5b5c7c7bbc8c7bac7c6b8c5c4b6c3c2b3c1c1b6c3
+c6becacfc7d2d9727e893f4a593e495e4a536e4c537551567c454c74474d77375077324b742b43
+6e273e6b263e6d273d71263e73233d73203c7228457b26467b17376c0c2f6215386b26497b3054
+83465f925770a36881b4657eb14e65963047781a3160102756071b4b081c4c0419460014410218
+43091f4a0c1f4b081b47112f590f2c581e3d6b1f3f6e0c2d5f123567173c6f02275a0a30611238
+691e42712547762747752747722a48722c4b732542621c39590f2d4b06244200203b00203b0221
+3b03213b1d3951000e25162c42000f251a293deffaff495266060d21061e43091e440d20461021
+47c2d4d4bfd1d1bcceceb8cacab5c7c7b3c5c5b3c5c5b4c6c6b7c9c9b8cacab8cacab6c8c8b3c5
+c5b2c4c4b4c6c6b6c8c8bfcccbbdcac9bcc9c8bbc8c7b7c5c4b5c3c3bbc8cbc4d0d585929b4a55
+64495469535c774e557753587e474e763f456f2e496f2a446d233f69213c68223f6d2641742643
+7726437b2d4b8520417a183b741b3e771b4178153b720d346b0a3168314b814d679d6d87bd7690
+c6637bb03f578c23396d13295d0e23570b20540218490011420118470f27561a32611c34631433
+6518376918386c0c2f6204285d0e35690e356c002158002357042c600f3669163c6d183d6a183b
+661c3e671e40682845651f3c5c13314f08264400203b001c37001933001630031f370f29402b41
+570e2137334256a8b3c8384155161d31071f420a20430e2245112246c3d5d5c0d2d2bcceceb8ca
+cab5c7c7b4c6c6b4c6c6b4c6c6b6c8c8b7c9c9b7c9c9b6c8c8b3c5c5b3c5c5b5c7c7b8cacac0cc
+cdbcc8c9bbc8c7bdcac9b8c7c4b1bfbeb2c0c0b9c6c9818f954f5b68596578636d86555c7c5a60
+84515880444a742b496d27446a214068203e6822416f26457727477c2647802547831c417c193e
+7b1c4480204a861d47830f3b7705316d1b3a723150884d6ca45d7ab25672a83e5a90253f75152f
+650f265d0e255c072156041e530a24591532661d3a6e1d3a6e0d2c6414336b0d2e67082b640d32
+6d0a306b00266100256000225a012b610a32660e35680c33610b305d0d305b0f335c1d3c5c1837
+5710304e09294702254000203b001a34001630000b230f2940000f24091e34001125000417202c
+3f20293d0a1e400d1f41102143142245c3d5d5c1d3d3bdcfcfb9cbcbb6c8c8b5c7c7b5c7c7b5c7
+c7b4c6c6b6c8c8b7c9c9b5c7c7b4c6c6b4c6c6b6c8c8b9cbcbbecacbb9c5c6b8c5c4bbc8c7b6c5
+c2acbbb8a9b7b6adbbbb707e83495560616d7e6c768f585f7f5e64885960884b517b3051722c4c
+7025476c23436d25457326477927497e264982214681294e8c284e8f1c4485113c7c123d7d113d
+7d0e3a7a0c336b143b7323488131548d375891314f89233f7917336d04205a0a26600d2c64102f
+6714356d173b7214386f0b31680424600b2b670426630b2f6c193e7c032a68001957022b690028
+64042f690b346c0c3468083061042b59052a57062c56133153102e500d2c4c0c2b4b082a480527
+4502233e001f3905233b00142c0b233a152a40001024000b20192439121b300e1d3e111e3f151f
+41182143c4d6d6c0d2d2bbcdcdb8cacab7c9c9b7c9c9b5c7c7b4c6c6b5c7c7b7c9c9baccccbacc
+ccb7c9c9b4c6c6b2c4c4b1c3c3b8c3c7bcc7cbbcc8c9b3c0bfa7b6b3a2b2ada8b7b4b0bebd9cab
+ae78858e4d5a6966708869718f555b7f6268925258843253742d4d7124466b20406a20406e2142
+7422437b1f447f1f44811c4283184082143e80103b7d0d387a0937780836770c3a740b38720b36
+700b336e0c326d092e6905276301235f02246000215d00245f022a6509346e0a377105326c002b
+65042663052764042766062b69062c6d01296a00256500206000246100296506316b093369062f
+61002859002250001e4b05234709274b0d2e4f1132531133520d2f4e072947052641001f390014
+2f000d260011290c1c33111e3508122a00051d151c3c171c3c191c3c1a1b3cc3d5d5bfd1d1bacc
+ccb8cacab7c9c9b8cacab6c8c8b5c7c7b2c4c4b3c5c5b4c6c6b4c6c6b3c5c5b1c3c3b1c3c3b2c4
+c4bac5c9bbc6cab7c3c4adbab9a4b3b0a5b5b0b1c1bcbccbc8b9c9c998a6ac5b69765a657a5f67
+8552587c5b618b545a863250722d4b6f244369213f6921406e23427424437b21437f2347841f45
+861b4385164082123d7f0d3b7c09397a0838790d40790d3e770d3b750d3a740d38720b336e082e
+6903296400245f00235e002460002b6704337004367200326e002c68032764042865052a68082d
+6b082e6f052d6e002769002365002868022e6b09336f0c356d0a3168042c6000275a0026570d2a
+500e2b510d2d510f2f530f30510d2e4f0c2e4d0d2d4b0e2c4808233f02193400142d05152d0b17
+300f19320f19321316321718341c1a37211d3ac2d4d4bed0d0b9cbcbb7c9c9b8cacab8cacab8ca
+cab6c8c8b3c5c5b3c5c5b2c4c4b2c4c4b2c4c4b2c4c4b2c4c4b2c4c4b4bfc3b7c3c4b7c4c3b1bf
+bcabbbb6adbdb6b7c7c0c1d1ccc0d1cfaebcc16776804c586b565e7c4f547a4c527e4b507e324d
+6f2d476c264167223e68223f6d25427527447a24457e2547832045831c4283173f80113c7c0d39
+79083776073675073d73073b7107386f08376e08356f08306b052a6700256200235f00235f0025
+63002d6a013473003674003270002d6a022762032863052a67092e6c0a3071072f70002a6c0026
+68002565002969042d6b062e69052c6401285f00275b0026590a295108274f03254a0123480123
+4703254908294a0c2a4c112e4e102c4b0d2542051935000f29000c2606112c0c17321817321b1a
+35221f3a29233fc0d2d2bdcfcfb9cbcbb7c9c9b8cacab9cbcbb9cbcbb8cacab6c8c8b6c8c8b6c8
+c8b7c9c9b7c9c9b5c7c7b1c3c3aec0c0abb6bab3bfc0bbc8c7bdcbc7b9c9c2b6c7beb7c8bfbaca
+c3b1c2bfb4c3c67988924f5b6e5d6583595e84444a7644497733496c2e4369273e65233b66263e
+6d27427529457b27457f2a4a862448852146841b4280153e7c103c790c3a750b397403396f0337
+6d03346b06346b09316c092e6905276401236000215e00225f002765022f6c0134730036740031
+6f002e6b00235c00245d022863072c69082f6d062e6f002a6c0026680022620025650027650027
+6500256200245f00245d00265d06234f04214d001f49001d47001e4600204804234908254b0c27
+4c122d4f182f501528480a1a38020d2c0009280009280a0a230c0c25110e2815102ac0d2d2bdcf
+cfb9cbcbb7c9c9b8cacab9cbcbb9cbcbb8cacab6c8c8b6c8c8b8cacabaccccbbcdcdb6c8c8adbf
+bfa6b8b8afbabfb5c0c4bdcac9c0cecabccdc4b8cabfb6c8bdb6c7beadbfbabbcbcb91a0a9606c
+7f666e8c656a90484e7a4b507e37466d3241692c3b66293a662b3d6d2c41752d457a2b467f324e
+882d4d89274b882247841d458018437d1341781240770b3b700a386e0b376d0e356c11346d1230
+6a0f2a670a2562021f5d03226005286709306e08347401347300316f002e6c0020550021580024
+5d042964072c69052c6a0027680024640025650026670228690428690326650226630527630629
+6205245205245204244f04244f03254e03254e05264e07264e09264c0f2a4f172f521b2f521829
+4b121f400a1436060f310e11270c0f250c0c230c0a21c2d4d4bed0d0b9cbcbb7c9c9b8cacab8ca
+cab8cacab6c8c8b3c5c5b2c4c4b3c5c5b6c8c8b8cacab4c6c6aabcbca1b3b3bbc6cbbbc6cabbc8
+c7b9c7c3b5c6bdb5c7bcb8cbbdbbcdc2b5c8c0bccdcba3b2bb6b778a5f678560658b484e7a5055
+833d486f38426b303c672d3a672f3c6d31417631457b3047802e46812a468024448020427e1b40
+79183f76143e74133d730e386e0e356c0e346b12336b15316b162e691328660e2361051c5b0821
+600d29690f306f0d337407337300306f002d6c00215400215600255c042962062c67042b690026
+670023630023630025660127680327680225640024610224600426620320530320530523530523
+5304245204245203234e05224e05214b0620490a21480f214914234a182348172045161e43171d
+33141a300f142a0d1026c3d5d5bfd1d1baccccb8cacab7c9c9b8cacab6c8c8b5c7c7b4c6c6b0c2
+c2aec0c0b0c2c2b4c6c6b4c6c6afc1c1a8bababdc8cdbcc7cbbac7c6b8c6c2b5c6bdb5c7bcb8cb
+bdbacdbfb6c9c0b5c6c3b2c2c87c889959627d595e84464c784f53834149713c446d343d69313c
+69313d6e33417633457b32477e2a417a254079213f791d3e77193d74163d71133b6f133b6f1135
+6a1234691333681632681a316a1a2d67172763132261091a5a0f216113296a1731711333750c32
+73042f6f012d6d03265804275a05295e072d640a3169072f6b012a680026640021620024650228
+6904286902256401226102215f02215f0320540320540221530221530222510222510322500522
+50011c48031c47051b45081a440b1a42121d44171f471921490b192c09172a091528081125c4d6
+d6c0d2d2bbcdcdb8cacab7c9c9b7c9c9b5c7c7b4c6c6b8cacab2c4c4acbebeadbfbfb3c5c5b8ca
+cab7c9c9b4c6c6b5c0c5b8c3c7bcc9c8beccc8bccdc4b9cbc0b5c8bab3c6b8b6c9c0b0c1bec1d1
+d7939fb0636c875e63894b517d525686444b733f456f383f6b343d6a343d6f36427735457b3347
+7e2f467f2b467f29467e24457d2044791d44771b44761b44761a3c711a3a6f1c386e20376e2437
+7125336e222d6a1e28680d195a122061162a6b1931721533750e3273062e6f022d6d082c5b092c
+5e092e610c33670e356c0b336e042e6a002967002869042c6d092f700c30710a2d6c0829680827
+650726640b285c0a275b0624580523570524560626550a29570d2a5806214d0b244f1026501224
+4e0f1e46101a43131b43151d451c2b3e1c2b3e1e2c3f1f2b3e030000000000
+}\f0\par
+\par
+\par
+\par
+\par
+\par
+ \par
+\par
+}
+ 
